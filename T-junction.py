@@ -2,8 +2,6 @@ import time
 from enum import Enum
 from typing import Tuple, List
 
-
-
 class Locations(Enum):
     EAST = "East"
     WEST = "West"
@@ -21,11 +19,17 @@ class Road:
         self.positions: List[Tuple[float, float]] = positions
         self.node_positions: List[Tuple[float, float]] = node_positions
 
-    def is_at_intersection(self, position: Tuple[int, int]) -> bool:
-        return position == (0, 0)
+    def is_at_intersection(self, position: Tuple[float, float]) -> bool:
+        return self.is_at_location(position, (0, 0))
+    
+    def is_at_location(self, position: Tuple[float, float], location: Tuple[float, float]) -> bool:
+        return position[0] <= location[0] + 1 and position[0] >= location[0] - 1 and position[1] <= location[1] + 1 and position[1] >= location[1] - 1
     
     def is_at_node(self, position: Tuple[float, float]) -> bool:
-        return position in self.node_positions
+        for node in self.node_positions:
+            if self.is_at_location(position, node):
+                return True
+        return False
 
 class Car:
     def __init__(self, name: str, position: Tuple[int, int], road: Road, 
@@ -50,7 +54,7 @@ class Car:
         return Directions.SOUTH
     
     def is_at_intersection(self) -> bool:
-        return self.position[0] < 1 and self.position[0] > -1 and self.position[1] < 1 and self.position[1] > -1
+        return self.road.is_at_intersection(self.position)
     
     def has_reached_destination(self) -> bool:
         if self.destination == Locations.EAST:
@@ -65,9 +69,9 @@ class Controller:
     def __init__(self, cars: List[Car], roads: List[Road]):
         self.cars: List[Car] = cars
         self.roads: List[Road] = roads
-        self.interection_busy_times: List[List[float]] = []
+        self.interection_busy_times: List[Tuple[float, float, Car]] = []
         self.current_time: int = 0
-        self.speed_reduction: float = 0.027
+        self.speed_reduction: float = 0.2
     
     def print_status(self):
         for car in self.cars:
@@ -78,11 +82,14 @@ class Controller:
         return car.road.is_at_node(car.position)
 
     def calculate_time_to_intersection(self, car: Car):
-        return abs(car.position[0]) + abs(car.position[1])
+        return self.current_time + ((abs(car.position[0]) + abs(car.position[1])) / car.speed)
 
-    def is_intersection_blocked(self, time_to_intersection: float):
+    def is_intersection_blocked(self, time_to_intersection: float, car: Car):
         for busy_time in self.interection_busy_times:
-            if time_to_intersection > busy_time[0] and time_to_intersection < busy_time[1]:
+            if time_to_intersection >= busy_time[0] and time_to_intersection <= busy_time[1] and busy_time[2] != car:
+                print(f"{car.name} will reach the intersection at {time_to_intersection}")
+                print(f"Intersection is blocked for {busy_time[2].name} from {busy_time[0]} to {busy_time[1]}.")
+                print(f"{car.name} is reducing speed by {self.speed_reduction} units.")
                 return True
         return False
 
@@ -117,10 +124,11 @@ class Controller:
         if self.check_if_at_node(car):
             time_to_intersection = self.calculate_time_to_intersection(car)
             print(f"{car.name} is at {car.position}. Time to intersection: {time_to_intersection}")
-            if self.is_intersection_blocked(time_to_intersection):
-                print(f"Intersection is blocked for {car.name}. Reducing speed.")
+            if self.is_intersection_blocked(time_to_intersection, car):
                 car.speed -= self.speed_reduction
-            self.interection_busy_times.append([time_to_intersection-2, time_to_intersection+2])
+                time_to_intersection = self.calculate_time_to_intersection(car)
+                print(f"Reducing speed. New time to intersection: {time_to_intersection}")
+            self.interection_busy_times.append((time_to_intersection, time_to_intersection+2, car))
 
 
     def simulate_intersection(self):
@@ -148,10 +156,10 @@ class Controller:
             self.current_time += 1
 
 
-west_to_east_road = Road("West-East", [(x, 0) for x in range(-50, 51)], [(-40, 0)])
+west_to_east_road = Road("West-East", [(x, 0) for x in range(-50, 51)], [(-40, 0), (-20, 0)])
 east_to_west_road = Road("East-West", [(x, -1) for x in range(50, -51, -1)], [(0, 0)])
 north_to_south_road = Road("North-South", [(1, y) for y in range(0, -51, -1)], [(0, 0)])
-south_to_north_road = Road("South-North", [(0, y) for y in range(-50, 1)], [(0, -40)])
+south_to_north_road = Road("South-North", [(0, y) for y in range(-50, 1)], [(0, -40), (0, -20)])
 
 car1 = Car("Car1", (-50, 0), west_to_east_road, Locations.WEST, Locations.SOUTH)
 car2 = Car("Car2", (0,-50), south_to_north_road, Locations.SOUTH, Locations.EAST)
