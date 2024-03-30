@@ -2,6 +2,9 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 import pygame
 import sys
+import os
+
+file_name = "car_positions.xlsx"
 
 # Initialize Pygame
 pygame.init()
@@ -90,6 +93,8 @@ class PointsDataProcessor:
             (0, -10), (0, -9), (0, -8), (0, -7), (0, -6), (0, -5), (0, -4), (0, -3), (0, -2), (0, -1), (0, 0)
         ]
 
+        points4 = [(1, -x) for x in range(51)]
+
         for car in cars_way:
             result=[]
             for point in car['points']:
@@ -97,6 +102,8 @@ class PointsDataProcessor:
                     point=eval(str(point))
                     if (point[0]>=-50 and point[0]<0) and point[1]==0:
                         result.extend(self.scale_points([point], points1, [(-50, 0), (0, 0)], [(300, 200), (600, 200)])) #x 
+                    elif point[0]==1 and (point[1]>=-50 and point[1]<0):
+                        result.extend(self.scale_points([point],points4, [(1, -50), (1, 0)], [(605, 500), (605, 200)]))
                     elif (point[0]>0 and point[0]<=50):
                         result.extend(self.scale_points([point],points2, [(0, 0), (50, 0)], [(600, 200), (900, 200)])) #y
                     elif point[0]==0 and (point[1]>=-50 and point[1]<0):
@@ -135,8 +142,7 @@ class Car:
 
 intersection_points = [ (600, 500), (300, 200), (600, 200), (900, 200)]
 
-scaled_R = PointsDataProcessor('data/coordinates.xlsx').execute()
-
+scaled_R = PointsDataProcessor(os.path.join(os.curdir, 'data', file_name)).execute()
 car_path_1 = scaled_R[1]['points']
 car_path_2 = scaled_R[0]['points']
 
