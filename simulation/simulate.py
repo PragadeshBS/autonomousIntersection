@@ -142,7 +142,7 @@ class Car:
 
 intersection_points = [ (600, 500), (300, 200), (600, 200), (900, 200)]
 
-scaled_R = PointsDataProcessor(os.path.join(os.curdir, 'data', file_name)).execute()
+scaled_R = PointsDataProcessor(os.path.join(os.curdir, 'simulation/data', file_name)).execute()
 car_path_1 = scaled_R[1]['points']
 car_path_2 = scaled_R[0]['points']
 
@@ -185,7 +185,7 @@ while running:
         i += 1
 
     pygame.display.flip()
-    clock.tick(5)
+    clock.tick(20)
 
 # Quit Pygame
 pygame.quit()
