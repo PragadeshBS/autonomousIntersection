@@ -3,6 +3,8 @@ from sklearn.preprocessing import MinMaxScaler
 import pygame
 import sys
 import os
+from enum import Enum
+import random
 
 file_name = "car_positions.xlsx"
 
@@ -14,6 +16,29 @@ WIDTH, HEIGHT = 1100, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Car Movement")
 font = pygame.font.Font(None, 36)
+
+class Color(Enum):
+    WHITE = (255, 255, 255)
+    BLACK = (0, 0, 0)
+    RED = (255, 0, 0)
+    GREEN = (0, 255, 0)
+    BLUE = (0, 0, 255)
+    YELLOW = (255, 255, 0)
+    CYAN = (0, 255, 255)
+    MAGENTA = (255, 0, 255)
+    ORANGE = (255, 165, 0)
+    PURPLE = (128, 0, 128)
+    TEAL = (0, 128, 128)
+    PINK = (255, 192, 203)
+    LIME = (0, 255, 0)
+    BROWN = (165, 42, 42)
+    GOLD = (255, 215, 0)
+    SILVER = (192, 192, 192)
+    GRAY = (128, 128, 128)
+    MAROON = (128, 0, 0)
+    NAVY = (0, 0, 128)
+    OLIVE = (128, 128, 0)
+
 
 # Define colors
 colors = [
@@ -114,7 +139,7 @@ class PointsDataProcessor:
                 car["points"]=[(x+10,y) for x,y in result]
             self.scaled_R.append(car)
 
-        print(self.scaled_R)
+        # print(self.scaled_R)
     
     def get_scaled_data(self):
         return self.scaled_R
@@ -124,10 +149,11 @@ class PointsDataProcessor:
         return self.get_scaled_data()
 
 class Car:
-    def __init__(self, path):
+    def __init__(self, path, color=Color.RED.value):
         self.path = path
         self.current_point = 0
         self.x, self.y = self.path[self.current_point]
+        self.color = color
 
     def move(self):
         if self.current_point < len(self.path) - 1:
@@ -138,23 +164,31 @@ class Car:
         return self.x, self.y
     
     def draw(self):
-        pygame.draw.rect(screen, colors[2], (self.x - 10, self.y - 10, 10, 10))
+        pygame.draw.rect(screen, self.color, (self.x - 10, self.y - 10, 10, 10))
 
 intersection_points = [ (600, 500), (300, 200), (600, 200), (900, 200)]
 
 scaled_R = PointsDataProcessor(os.path.join(os.curdir, 'simulation/data', file_name)).execute()
 car_path_1 = scaled_R[1]['points']
 car_path_2 = scaled_R[0]['points']
+print(scaled_R)
+# car_path_3 = scaled_R[2]['points']
+# car_path_4 = scaled_R[3]['points']
 
 # Create car
-car1 = Car(car_path_1)
-car2 = Car(car_path_2)
+car1 = Car(car_path_1, Color.RED.value)
+car2 = Car(car_path_2, Color.GREEN.value)
+# car3 = Car(car_path_3, Color.NAVY.value)
+# car4 = Car(car_path_4, Color.ORANGE.value)
+
+cars = [car1, car2]
+# cars = [car1, car2, car3, car4]
 
 # Main loop
 clock = pygame.time.Clock()
 running = True
 while running:
-    screen.fill(colors[0])
+    screen.fill(Color.WHITE.value)
 
     # Handle events
     for event in pygame.event.get():
@@ -162,21 +196,20 @@ while running:
             running = False
 
     # Move and draw car
-    car1.move()
-    car2.move()
-    cap_car_1 = "Car A : " + str(car1.get_position())
-    cap_car_2="Car B : " + str(car2.get_position())
+    for car in cars:
+        car.move()
+        car.draw()
+    # cap_car_1 = "Car A : " + str(car1.get_position())
+    # cap_car_2="Car B : " + str(car2.get_position())
     
-    text_1= font.render(cap_car_1, True, (0, 0, 0))
-    text_2= font.render(cap_car_2, True, (0, 0, 0))
+    # text_1= font.render(cap_car_1, True, (0, 0, 0))
+    # text_2= font.render(cap_car_2, True, (0, 0, 0))
     
-    text_rect_1 = text_1.get_rect(topleft=(20, 20))
-    text_rect_2 = text_2.get_rect(topleft=(20, 40))
+    # text_rect_1 = text_1.get_rect(topleft=(20, 20))
+    # text_rect_2 = text_2.get_rect(topleft=(20, 40))
     
-    screen.blit(text_1, text_rect_1)
-    screen.blit(text_2, text_rect_2)
-    car1.draw()
-    car2.draw()
+    # screen.blit(text_1, text_rect_1)
+    # screen.blit(text_2, text_rect_2)
 
     # Draw intersection points
     i=1

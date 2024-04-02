@@ -1,124 +1,346 @@
-car A is at 0, -50 with speed 0, 1
-car B is at -50, 0 with speed 1, 0
-car A is at 0, -49 with speed 0, 1
-car B is at -49, 0 with speed 0.9, 0
-car A is at 0, -48 with speed 0, 1
-car B is at -48.1, 0 with speed 0.9, 0
-car A is at 0, -47 with speed 0, 1
-car B is at -47.2, 0 with speed 0.9, 0
-car A is at 0, -46 with speed 0, 1
-car B is at -46.300000000000004, 0 with speed 0.9, 0
-car A is at 0, -45 with speed 0, 1
-car B is at -45.400000000000006, 0 with speed 0.9, 0
-car A is at 0, -44 with speed 0, 1
-car B is at -44.50000000000001, 0 with speed 0.9, 0
-car A is at 0, -43 with speed 0, 1
-car B is at -43.60000000000001, 0 with speed 0.9, 0
-car A is at 0, -42 with speed 0, 1
-car B is at -42.70000000000001, 0 with speed 0.9, 0
-car A is at 0, -41 with speed 0, 1
-car B is at -41.80000000000001, 0 with speed 0.9, 0
-car A is at 0, -40 with speed 0, 1
-car B is at -40.90000000000001, 0 with speed 0.9, 0
-car A is at 0, -39 with speed 0, 1
-car B is at -40.000000000000014, 0 with speed 0.9, 0
-car A is at 0, -38 with speed 0, 1
-car B is at -39.100000000000016, 0 with speed 0.9, 0
-car A is at 0, -37 with speed 0, 1
-car B is at -38.20000000000002, 0 with speed 0.9, 0
-car A is at 0, -36 with speed 0, 1
-car B is at -37.30000000000002, 0 with speed 0.9, 0
-car A is at 0, -35 with speed 0, 1
-car B is at -36.40000000000002, 0 with speed 0.9, 0
-car A is at 0, -34 with speed 0, 1
-car B is at -35.50000000000002, 0 with speed 0.9, 0
-car A is at 0, -33 with speed 0, 1
-car B is at -34.60000000000002, 0 with speed 0.9, 0
-car A is at 0, -32 with speed 0, 1
-car B is at -33.700000000000024, 0 with speed 0.9, 0
-car A is at 0, -31 with speed 0, 1
-car B is at -32.800000000000026, 0 with speed 0.9, 0
-car A is at 0, -30 with speed 0, 1
-car B is at -31.900000000000027, 0 with speed 0.9, 0
-car A is at 0, -29 with speed 0, 1
-car B is at -31.00000000000003, 0 with speed 0.9, 0
-car A is at 0, -28 with speed 0, 1
-car B is at -30.10000000000003, 0 with speed 0.9, 0
-car A is at 0, -27 with speed 0, 1
-car B is at -29.20000000000003, 0 with speed 0.9, 0
-car A is at 0, -26 with speed 0, 1
-car B is at -28.300000000000033, 0 with speed 0.9, 0
-car A is at 0, -25 with speed 0, 1
-car B is at -27.400000000000034, 0 with speed 0.9, 0
-car A is at 0, -24 with speed 0, 1
-car B is at -26.500000000000036, 0 with speed 0.9, 0
-car A is at 0, -23 with speed 0, 1
-car B is at -25.600000000000037, 0 with speed 0.9, 0
-car A is at 0, -22 with speed 0, 1
-car B is at -24.70000000000004, 0 with speed 0.9, 0
-car A is at 0, -21 with speed 0, 1
-car B is at -23.80000000000004, 0 with speed 0.9, 0
-car A is at 0, -20 with speed 0, 1
-car B is at -22.90000000000004, 0 with speed 0.9, 0
-car A is at 0, -19 with speed 0, 1
-car B is at -22.000000000000043, 0 with speed 0.9, 0
-car A is at 0, -18 with speed 0, 1
-car B is at -21.100000000000044, 0 with speed 0.9, 0
-car A is at 0, -17 with speed 0, 1
-car B is at -20.200000000000045, 0 with speed 0.9, 0
-car A is at 0, -16 with speed 0, 1
-car B is at -19.300000000000047, 0 with speed 0.9, 0
-car A is at 0, -15 with speed 0, 1
-car B is at -18.40000000000005, 0 with speed 0.9, 0
-car A is at 0, -14 with speed 0, 1
-car B is at -17.50000000000005, 0 with speed 0.9, 0
-car A is at 0, -13 with speed 0, 1
-car B is at -16.60000000000005, 0 with speed 0.9, 0
-car A is at 0, -12 with speed 0, 1
-car B is at -15.70000000000005, 0 with speed 0.9, 0
-car A is at 0, -11 with speed 0, 1
-car B is at -14.80000000000005, 0 with speed 0.9, 0
-car A is at 0, -10 with speed 0, 1
-car B is at -13.90000000000005, 0 with speed 0.9, 0
-car A is at 0, -9 with speed 0, 1
-car B is at -13.00000000000005, 0 with speed 0.9, 0
-car A is at 0, -8 with speed 0, 1
-car B is at -12.10000000000005, 0 with speed 0.9, 0
-car A is at 0, -7 with speed 0, 1
-car B is at -11.200000000000049, 0 with speed 0.9, 0
-car A is at 0, -6 with speed 0, 1
-car B is at -10.300000000000049, 0 with speed 0.9, 0
-car A is at 0, -5 with speed 0, 1
-car B is at -9.400000000000048, 0 with speed 0.9, 0
-car A is at 0, -4 with speed 0, 1
-car B is at -8.500000000000048, 0 with speed 0.9, 0
-car A is at 0, -3 with speed 0, 1
-car B is at -7.600000000000048, 0 with speed 0.9, 0
-car A is at 0, -2 with speed 0, 1
-car B is at -6.700000000000047, 0 with speed 0.9, 0
-car A is at 0, -1 with speed 0, 1
-car B is at -5.800000000000047, 0 with speed 0.9, 0
-car A is at 1, 0 with speed 0.9, 0
-car B is at -4.9000000000000465, 0 with speed 0.9, 0
-car A is at 1.9, 0 with speed 0.9, 0
-car B is at -4.000000000000046, 0 with speed 0.9, 0
-car A is at 2.8, 0 with speed 0.9, 0
-car B is at -3.1000000000000463, 0 with speed 0.9, 0
-car A is at 3.6999999999999997, 0 with speed 0.9, 0
-car B is at -2.2000000000000464, 0 with speed 0.9, 0
-car A is at 4.6, 0 with speed 0.9, 0
-car B is at -1.3000000000000465, 0 with speed 0.9, 0
-car A is at 5.5, 0 with speed 0.9, 0
-car B is at 1, -1 with speed 0, -1
-car A is at 6.4, 0 with speed 0.9, 0
-car B is at 1, -2 with speed 0, -1
-car A is at 7.300000000000001, 0 with speed 0.9, 0
-car B is at 1, -3 with speed 0, -1
-car A is at 8.200000000000001, 0 with speed 0.9, 0
-car B is at 1, -4 with speed 0, -1
-car A is at 9.100000000000001, 0 with speed 0.9, 0
-car B is at 1, -5 with speed 0, -1
-car B is at 1, -6 with speed 0, -1
-car B is at 1, -7 with speed 0, -1
-car B is at 1, -8 with speed 0, -1
-car B is at 1, -9 with speed 0, -1
+0 Active cars: ['A', 'B']
+0 car A is at 0, -50 with speed 0, 1
+0 car A time to intersection 49.0
+0 car B is at -50, 0 with speed 1, 0
+0 car B time to intersection 49.0
+0 Car B traveling at speed 1 is blocked by car A from time 49.0 to 54.0
+0 Possible collision at intersection for car B, reducing speed
+0 Speed reduced for car B to 0.9, 0
+0 car B time to intersection 54.44444444444444
+1 Active cars: ['A', 'B']
+1 car A is at 0, -49 with speed 0, 1
+1 car A time to intersection 49.0
+1 car B is at -49, 0 with speed 0.9, 0
+1 car B time to intersection 54.44444444444444
+2 Active cars: ['A', 'B']
+2 car A is at 0, -48 with speed 0, 1
+2 car A time to intersection 49.0
+2 car B is at -48.1, 0 with speed 0.9, 0
+2 car B time to intersection 54.44444444444444
+3 Active cars: ['A', 'B']
+3 car A is at 0, -47 with speed 0, 1
+3 car A time to intersection 49.0
+3 car B is at -47.2, 0 with speed 0.9, 0
+3 car B time to intersection 54.44444444444445
+4 Active cars: ['A', 'B']
+4 car A is at 0, -46 with speed 0, 1
+4 car A time to intersection 49.0
+4 car B is at -46.300000000000004, 0 with speed 0.9, 0
+4 car B time to intersection 54.44444444444445
+5 Active cars: ['A', 'B']
+5 car A is at 0, -45 with speed 0, 1
+5 car A time to intersection 49.0
+5 car B is at -45.400000000000006, 0 with speed 0.9, 0
+5 car B time to intersection 54.44444444444445
+6 Active cars: ['A', 'B']
+6 car A is at 0, -44 with speed 0, 1
+6 car A time to intersection 49.0
+6 car B is at -44.50000000000001, 0 with speed 0.9, 0
+6 car B time to intersection 54.44444444444445
+7 Active cars: ['A', 'B']
+7 car A is at 0, -43 with speed 0, 1
+7 car A time to intersection 49.0
+7 car B is at -43.60000000000001, 0 with speed 0.9, 0
+7 car B time to intersection 54.44444444444446
+8 Active cars: ['A', 'B']
+8 car A is at 0, -42 with speed 0, 1
+8 car A time to intersection 49.0
+8 car B is at -42.70000000000001, 0 with speed 0.9, 0
+8 car B time to intersection 54.44444444444446
+9 Active cars: ['A', 'B']
+9 car A is at 0, -41 with speed 0, 1
+9 car A time to intersection 49.0
+9 car B is at -41.80000000000001, 0 with speed 0.9, 0
+9 car B time to intersection 54.44444444444446
+10 Active cars: ['A', 'B']
+10 car A is at 0, -40 with speed 0, 1
+10 car A time to intersection 49.0
+10 car B is at -40.90000000000001, 0 with speed 0.9, 0
+10 car B time to intersection 54.44444444444446
+11 Active cars: ['A', 'B']
+11 car A is at 0, -39 with speed 0, 1
+11 car A time to intersection 49.0
+11 car B is at -40.000000000000014, 0 with speed 0.9, 0
+11 car B time to intersection 54.444444444444464
+12 Active cars: ['A', 'B']
+12 car A is at 0, -38 with speed 0, 1
+12 car A time to intersection 49.0
+12 car B is at -39.100000000000016, 0 with speed 0.9, 0
+12 car B time to intersection 54.444444444444464
+13 Active cars: ['A', 'B']
+13 car A is at 0, -37 with speed 0, 1
+13 car A time to intersection 49.0
+13 car B is at -38.20000000000002, 0 with speed 0.9, 0
+13 car B time to intersection 54.444444444444464
+14 Active cars: ['A', 'B']
+14 car A is at 0, -36 with speed 0, 1
+14 car A time to intersection 49.0
+14 car B is at -37.30000000000002, 0 with speed 0.9, 0
+14 car B time to intersection 54.444444444444464
+15 Active cars: ['A', 'B']
+15 car A is at 0, -35 with speed 0, 1
+15 car A time to intersection 49.0
+15 car B is at -36.40000000000002, 0 with speed 0.9, 0
+15 car B time to intersection 54.444444444444464
+16 Active cars: ['A', 'B']
+16 car A is at 0, -34 with speed 0, 1
+16 car A time to intersection 49.0
+16 car B is at -35.50000000000002, 0 with speed 0.9, 0
+16 car B time to intersection 54.44444444444447
+17 Active cars: ['A', 'B']
+17 car A is at 0, -33 with speed 0, 1
+17 car A time to intersection 49.0
+17 car B is at -34.60000000000002, 0 with speed 0.9, 0
+17 car B time to intersection 54.44444444444447
+18 Active cars: ['A', 'B']
+18 car A is at 0, -32 with speed 0, 1
+18 car A time to intersection 49.0
+18 car B is at -33.700000000000024, 0 with speed 0.9, 0
+18 car B time to intersection 54.44444444444447
+19 Active cars: ['A', 'B']
+19 car A is at 0, -31 with speed 0, 1
+19 car A time to intersection 49.0
+19 car B is at -32.800000000000026, 0 with speed 0.9, 0
+19 car B time to intersection 54.44444444444447
+20 Active cars: ['A', 'B']
+20 car A is at 0, -30 with speed 0, 1
+20 car A time to intersection 49.0
+20 car B is at -31.900000000000027, 0 with speed 0.9, 0
+20 car B time to intersection 54.44444444444448
+21 Active cars: ['A', 'B']
+21 car A is at 0, -29 with speed 0, 1
+21 car A time to intersection 49.0
+21 car B is at -31.00000000000003, 0 with speed 0.9, 0
+21 car B time to intersection 54.44444444444448
+22 Active cars: ['A', 'B']
+22 car A is at 0, -28 with speed 0, 1
+22 car A time to intersection 49.0
+22 car B is at -30.10000000000003, 0 with speed 0.9, 0
+22 car B time to intersection 54.44444444444448
+23 Active cars: ['A', 'B']
+23 car A is at 0, -27 with speed 0, 1
+23 car A time to intersection 49.0
+23 car B is at -29.20000000000003, 0 with speed 0.9, 0
+23 car B time to intersection 54.44444444444448
+24 Active cars: ['A', 'B']
+24 car A is at 0, -26 with speed 0, 1
+24 car A time to intersection 49.0
+24 car B is at -28.300000000000033, 0 with speed 0.9, 0
+24 car B time to intersection 54.444444444444485
+25 Active cars: ['A', 'B']
+25 car A is at 0, -25 with speed 0, 1
+25 car A time to intersection 49.0
+25 car B is at -27.400000000000034, 0 with speed 0.9, 0
+25 car B time to intersection 54.444444444444485
+26 Active cars: ['A', 'B']
+26 car A is at 0, -24 with speed 0, 1
+26 car A time to intersection 49.0
+26 car B is at -26.500000000000036, 0 with speed 0.9, 0
+26 car B time to intersection 54.444444444444485
+27 Active cars: ['A', 'B']
+27 car A is at 0, -23 with speed 0, 1
+27 car A time to intersection 49.0
+27 car B is at -25.600000000000037, 0 with speed 0.9, 0
+27 car B time to intersection 54.444444444444485
+28 Active cars: ['A', 'B']
+28 car A is at 0, -22 with speed 0, 1
+28 car A time to intersection 49.0
+28 car B is at -24.70000000000004, 0 with speed 0.9, 0
+28 car B time to intersection 54.444444444444485
+29 Active cars: ['A', 'B']
+29 car A is at 0, -21 with speed 0, 1
+29 car A time to intersection 49.0
+29 car B is at -23.80000000000004, 0 with speed 0.9, 0
+29 car B time to intersection 54.444444444444485
+30 Active cars: ['A', 'B']
+30 car A is at 0, -20 with speed 0, 1
+30 car A time to intersection 49.0
+30 car B is at -22.90000000000004, 0 with speed 0.9, 0
+30 car B time to intersection 54.44444444444449
+31 Active cars: ['A', 'B']
+31 car A is at 0, -19 with speed 0, 1
+31 car A time to intersection 49.0
+31 car B is at -22.000000000000043, 0 with speed 0.9, 0
+31 car B time to intersection 54.44444444444449
+32 Active cars: ['A', 'B']
+32 car A is at 0, -18 with speed 0, 1
+32 car A time to intersection 49.0
+32 car B is at -21.100000000000044, 0 with speed 0.9, 0
+32 car B time to intersection 54.4444444444445
+33 Active cars: ['A', 'B']
+33 car A is at 0, -17 with speed 0, 1
+33 car A time to intersection 49.0
+33 car B is at -20.200000000000045, 0 with speed 0.9, 0
+33 car B time to intersection 54.4444444444445
+34 Active cars: ['A', 'B']
+34 car A is at 0, -16 with speed 0, 1
+34 car A time to intersection 49.0
+34 car B is at -19.300000000000047, 0 with speed 0.9, 0
+34 car B time to intersection 54.4444444444445
+35 Active cars: ['A', 'B']
+35 car A is at 0, -15 with speed 0, 1
+35 car A time to intersection 49.0
+35 car B is at -18.40000000000005, 0 with speed 0.9, 0
+35 car B time to intersection 54.4444444444445
+36 Active cars: ['A', 'B']
+36 car A is at 0, -14 with speed 0, 1
+36 car A time to intersection 49.0
+36 car B is at -17.50000000000005, 0 with speed 0.9, 0
+36 car B time to intersection 54.4444444444445
+37 Active cars: ['A', 'B']
+37 car A is at 0, -13 with speed 0, 1
+37 car A time to intersection 49.0
+37 car B is at -16.60000000000005, 0 with speed 0.9, 0
+37 car B time to intersection 54.4444444444445
+38 Active cars: ['A', 'B']
+38 car A is at 0, -12 with speed 0, 1
+38 car A time to intersection 49.0
+38 car B is at -15.70000000000005, 0 with speed 0.9, 0
+38 car B time to intersection 54.4444444444445
+39 Active cars: ['A', 'B']
+39 car A is at 0, -11 with speed 0, 1
+39 car A time to intersection 49.0
+39 car B is at -14.80000000000005, 0 with speed 0.9, 0
+39 car B time to intersection 54.4444444444445
+40 Active cars: ['A', 'B']
+40 car A is at 0, -10 with speed 0, 1
+40 car A time to intersection 49.0
+40 car B is at -13.90000000000005, 0 with speed 0.9, 0
+40 car B time to intersection 54.4444444444445
+41 Active cars: ['A', 'B']
+41 car A is at 0, -9 with speed 0, 1
+41 car A time to intersection 49.0
+41 car B is at -13.00000000000005, 0 with speed 0.9, 0
+41 car B time to intersection 54.4444444444445
+42 Active cars: ['A', 'B']
+42 car A is at 0, -8 with speed 0, 1
+42 car A time to intersection 49.0
+42 car B is at -12.10000000000005, 0 with speed 0.9, 0
+42 car B time to intersection 54.4444444444445
+43 Active cars: ['A', 'B']
+43 car A is at 0, -7 with speed 0, 1
+43 car A time to intersection 49.0
+43 car B is at -11.200000000000049, 0 with speed 0.9, 0
+43 car B time to intersection 54.4444444444445
+44 Active cars: ['A', 'B']
+44 car A is at 0, -6 with speed 0, 1
+44 car A time to intersection 49.0
+44 car B is at -10.300000000000049, 0 with speed 0.9, 0
+44 car B time to intersection 54.4444444444445
+45 Active cars: ['A', 'B']
+45 car A is at 0, -5 with speed 0, 1
+45 car A time to intersection 49.0
+45 car B is at -9.400000000000048, 0 with speed 0.9, 0
+45 car B time to intersection 54.4444444444445
+46 Active cars: ['A', 'B']
+46 car A is at 0, -4 with speed 0, 1
+46 car A time to intersection 49.0
+46 car B is at -8.500000000000048, 0 with speed 0.9, 0
+46 car B time to intersection 54.4444444444445
+47 Active cars: ['A', 'B']
+47 car A is at 0, -3 with speed 0, 1
+47 car A time to intersection 49.0
+47 car B is at -7.600000000000048, 0 with speed 0.9, 0
+47 car B time to intersection 54.4444444444445
+48 Active cars: ['A', 'B']
+48 car A is at 0, -2 with speed 0, 1
+48 car A time to intersection 49.0
+48 car B is at -6.700000000000047, 0 with speed 0.9, 0
+48 car B time to intersection 54.4444444444445
+49 Active cars: ['A', 'B']
+49 car A is at 0, -1 with speed 0, 1
+49 car A time to intersection 49.0
+49 car B is at -5.800000000000047, 0 with speed 0.9, 0
+49 car B time to intersection 54.4444444444445
+49 car A has passed intersection. ignoring for collision prediction
+50 Active cars: ['A', 'B']
+50 car A is at 1, 0 with speed 0.9, 0
+50 car A time to intersection 52.111111111111114
+50 car B has passed intersection. ignoring for collision prediction
+50 car B is at -4.9000000000000465, 0 with speed 0.9, 0
+50 car B time to intersection 54.44444444444449
+50 car A has passed intersection. ignoring for collision prediction
+51 Active cars: ['A', 'B']
+51 car A is at 1.9, 0 with speed 0.9, 0
+51 car A time to intersection 54.111111111111114
+51 car B has passed intersection. ignoring for collision prediction
+51 car B is at -4.000000000000046, 0 with speed 0.9, 0
+51 car B time to intersection 54.44444444444449
+51 car A has passed intersection. ignoring for collision prediction
+52 Active cars: ['A', 'B']
+52 car A is at 2.8, 0 with speed 0.9, 0
+52 car A time to intersection 56.111111111111114
+52 car B has passed intersection. ignoring for collision prediction
+52 car B is at -3.1000000000000463, 0 with speed 0.9, 0
+52 car B time to intersection 54.44444444444449
+52 car A has passed intersection. ignoring for collision prediction
+53 Active cars: ['A', 'B']
+53 car A is at 3.6999999999999997, 0 with speed 0.9, 0
+53 car A time to intersection 58.111111111111114
+53 car B has passed intersection. ignoring for collision prediction
+53 car B is at -2.2000000000000464, 0 with speed 0.9, 0
+53 car B time to intersection 54.44444444444449
+53 car A has passed intersection. ignoring for collision prediction
+54 Active cars: ['A', 'B']
+54 car A is at 4.6, 0 with speed 0.9, 0
+54 car A time to intersection 60.111111111111114
+54 car B has passed intersection. ignoring for collision prediction
+54 car B is at -1.3000000000000465, 0 with speed 0.9, 0
+54 car B time to intersection 54.44444444444449
+54 car A has passed intersection. ignoring for collision prediction
+55 Active cars: ['A', 'B']
+55 car A is at 5.5, 0 with speed 0.9, 0
+55 car A time to intersection 62.111111111111114
+55 car B has passed intersection. ignoring for collision prediction
+55 car B is at 1, -1 with speed 0, -1
+55 car B time to intersection 58.0
+55 car A has passed intersection. ignoring for collision prediction
+56 Active cars: ['A', 'B']
+56 car A is at 6.4, 0 with speed 0.9, 0
+56 car A time to intersection 64.11111111111111
+56 car B has passed intersection. ignoring for collision prediction
+56 car B is at 1, -2 with speed 0, -1
+56 car B time to intersection 60.0
+56 car A has passed intersection. ignoring for collision prediction
+57 Active cars: ['A', 'B']
+57 car A is at 7.300000000000001, 0 with speed 0.9, 0
+57 car A time to intersection 66.11111111111111
+57 car B has passed intersection. ignoring for collision prediction
+57 car B is at 1, -3 with speed 0, -1
+57 car B time to intersection 62.0
+57 car A has passed intersection. ignoring for collision prediction
+58 Active cars: ['A', 'B']
+58 car A is at 8.200000000000001, 0 with speed 0.9, 0
+58 car A time to intersection 68.11111111111111
+58 car B has passed intersection. ignoring for collision prediction
+58 car B is at 1, -4 with speed 0, -1
+58 car B time to intersection 64.0
+58 car A has passed intersection. ignoring for collision prediction
+59 Active cars: ['A', 'B']
+59 car A is at 9.100000000000001, 0 with speed 0.9, 0
+59 car A time to intersection 70.11111111111111
+59 car B has passed intersection. ignoring for collision prediction
+59 A has left the simulation
+60 Active cars: ['B']
+60 car B is at 1, -5 with speed 0, -1
+60 car B time to intersection 67.0
+60 car A has passed intersection. ignoring for collision prediction
+61 Active cars: ['B']
+61 car B is at 1, -6 with speed 0, -1
+61 car B time to intersection 69.0
+61 car A has passed intersection. ignoring for collision prediction
+62 Active cars: ['B']
+62 car B is at 1, -7 with speed 0, -1
+62 car B time to intersection 71.0
+62 car A has passed intersection. ignoring for collision prediction
+63 Active cars: ['B']
+63 car B is at 1, -8 with speed 0, -1
+63 car B time to intersection 73.0
+63 car A has passed intersection. ignoring for collision prediction
+64 Active cars: ['B']
+64 car B is at 1, -9 with speed 0, -1
+64 car B time to intersection 75.0
+64 car A has passed intersection. ignoring for collision prediction
+64 B has left the simulation
+64 All cars have left the simulation
+64 Simulation ended with srf 0.1
