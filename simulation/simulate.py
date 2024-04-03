@@ -169,23 +169,10 @@ class Car:
 intersection_points = [ (600, 500), (300, 200), (600, 200), (900, 200)]
 
 scaled_R = PointsDataProcessor(os.path.join(os.curdir, 'simulation/data', file_name)).execute()
-car_path_1 = scaled_R[1]['points']
-car_path_2 = scaled_R[0]['points']
-car_path_3 = scaled_R[2]['points']
-car_path_4 = scaled_R[3]['points']
-car_path_5 = scaled_R[4]['points']
-car_path_6 = scaled_R[5]['points']
 
-# Create car
-car1 = Car(car_path_1, Color.RED.value)
-car2 = Car(car_path_2, Color.GREEN.value)
-car3 = Car(car_path_3, Color.NAVY.value)
-car4 = Car(car_path_4, Color.ORANGE.value)
-car5 = Car(car_path_5, Color.BROWN.value)
-car6 = Car(car_path_6, Color.GOLD.value)
+car_paths = [scaled_R[i]['points'] for i in range(len(scaled_R))]
 
-# cars = [car1, car2]
-cars = [car1, car2, car3, car4, car5, car6]
+cars = [Car(car_paths[i], Color.NAVY.value) for i in range(len(car_paths))]
 
 # Main loop
 clock = pygame.time.Clock()
