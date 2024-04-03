@@ -5,342 +5,1508 @@
 0 car B time to intersection 49.0
 0 Car B traveling at speed 1 is blocked by car A from time 49.0 to 54.0
 0 Possible collision at intersection for car B, reducing speed
-0 Speed reduced for car B to 0.9, 0
-0 car B time to intersection 54.44444444444444
+0 Speed reduced for car B to 0.84, 0
+0 car B time to intersection 58.333333333333336
 1 Active cars: ['A', 'B']
 1 car A is at 0, -49 with speed 0, 1
 1 car A time to intersection 49.0
-1 car B is at -49, 0 with speed 0.9, 0
-1 car B time to intersection 54.44444444444444
+1 car B is at -49, 0 with speed 0.84, 0
+1 car B time to intersection 58.33333333333333
 2 Active cars: ['A', 'B']
 2 car A is at 0, -48 with speed 0, 1
 2 car A time to intersection 49.0
-2 car B is at -48.1, 0 with speed 0.9, 0
-2 car B time to intersection 54.44444444444444
+2 car B is at -48.16, 0 with speed 0.84, 0
+2 car B time to intersection 58.33333333333333
 3 Active cars: ['A', 'B']
 3 car A is at 0, -47 with speed 0, 1
 3 car A time to intersection 49.0
-3 car B is at -47.2, 0 with speed 0.9, 0
-3 car B time to intersection 54.44444444444445
+3 car B is at -47.31999999999999, 0 with speed 0.84, 0
+3 car B time to intersection 58.33333333333332
 4 Active cars: ['A', 'B']
 4 car A is at 0, -46 with speed 0, 1
 4 car A time to intersection 49.0
-4 car B is at -46.300000000000004, 0 with speed 0.9, 0
-4 car B time to intersection 54.44444444444445
+4 car B is at -46.47999999999999, 0 with speed 0.84, 0
+4 car B time to intersection 58.33333333333332
 5 Active cars: ['A', 'B']
 5 car A is at 0, -45 with speed 0, 1
 5 car A time to intersection 49.0
-5 car B is at -45.400000000000006, 0 with speed 0.9, 0
-5 car B time to intersection 54.44444444444445
+5 car B is at -45.639999999999986, 0 with speed 0.84, 0
+5 car B time to intersection 58.333333333333314
 6 Active cars: ['A', 'B']
 6 car A is at 0, -44 with speed 0, 1
 6 car A time to intersection 49.0
-6 car B is at -44.50000000000001, 0 with speed 0.9, 0
-6 car B time to intersection 54.44444444444445
+6 car B is at -44.79999999999998, 0 with speed 0.84, 0
+6 car B time to intersection 58.333333333333314
 7 Active cars: ['A', 'B']
 7 car A is at 0, -43 with speed 0, 1
 7 car A time to intersection 49.0
-7 car B is at -43.60000000000001, 0 with speed 0.9, 0
-7 car B time to intersection 54.44444444444446
+7 car B is at -43.95999999999998, 0 with speed 0.84, 0
+7 car B time to intersection 58.33333333333331
 8 Active cars: ['A', 'B']
 8 car A is at 0, -42 with speed 0, 1
 8 car A time to intersection 49.0
-8 car B is at -42.70000000000001, 0 with speed 0.9, 0
-8 car B time to intersection 54.44444444444446
+8 car B is at -43.119999999999976, 0 with speed 0.84, 0
+8 car B time to intersection 58.3333333333333
 9 Active cars: ['A', 'B']
 9 car A is at 0, -41 with speed 0, 1
 9 car A time to intersection 49.0
-9 car B is at -41.80000000000001, 0 with speed 0.9, 0
-9 car B time to intersection 54.44444444444446
+9 car B is at -42.27999999999997, 0 with speed 0.84, 0
+9 car B time to intersection 58.3333333333333
 10 Active cars: ['A', 'B']
 10 car A is at 0, -40 with speed 0, 1
 10 car A time to intersection 49.0
-10 car B is at -40.90000000000001, 0 with speed 0.9, 0
-10 car B time to intersection 54.44444444444446
+10 car B is at -41.43999999999997, 0 with speed 0.84, 0
+10 car B time to intersection 58.33333333333329
 11 Active cars: ['A', 'B']
 11 car A is at 0, -39 with speed 0, 1
 11 car A time to intersection 49.0
-11 car B is at -40.000000000000014, 0 with speed 0.9, 0
-11 car B time to intersection 54.444444444444464
+11 car B is at -40.599999999999966, 0 with speed 0.84, 0
+11 car B time to intersection 58.33333333333329
 12 Active cars: ['A', 'B']
 12 car A is at 0, -38 with speed 0, 1
 12 car A time to intersection 49.0
-12 car B is at -39.100000000000016, 0 with speed 0.9, 0
-12 car B time to intersection 54.444444444444464
+12 car B is at -39.75999999999996, 0 with speed 0.84, 0
+12 car B time to intersection 58.333333333333286
 13 Active cars: ['A', 'B']
 13 car A is at 0, -37 with speed 0, 1
 13 car A time to intersection 49.0
-13 car B is at -38.20000000000002, 0 with speed 0.9, 0
-13 car B time to intersection 54.444444444444464
+13 car B is at -38.91999999999996, 0 with speed 0.84, 0
+13 car B time to intersection 58.33333333333328
 14 Active cars: ['A', 'B']
 14 car A is at 0, -36 with speed 0, 1
 14 car A time to intersection 49.0
-14 car B is at -37.30000000000002, 0 with speed 0.9, 0
-14 car B time to intersection 54.444444444444464
+14 car B is at -38.079999999999956, 0 with speed 0.84, 0
+14 car B time to intersection 58.33333333333328
 15 Active cars: ['A', 'B']
 15 car A is at 0, -35 with speed 0, 1
 15 car A time to intersection 49.0
-15 car B is at -36.40000000000002, 0 with speed 0.9, 0
-15 car B time to intersection 54.444444444444464
+15 car B is at -37.23999999999995, 0 with speed 0.84, 0
+15 car B time to intersection 58.33333333333327
 16 Active cars: ['A', 'B']
 16 car A is at 0, -34 with speed 0, 1
 16 car A time to intersection 49.0
-16 car B is at -35.50000000000002, 0 with speed 0.9, 0
-16 car B time to intersection 54.44444444444447
+16 car B is at -36.39999999999995, 0 with speed 0.84, 0
+16 car B time to intersection 58.33333333333327
 17 Active cars: ['A', 'B']
 17 car A is at 0, -33 with speed 0, 1
 17 car A time to intersection 49.0
-17 car B is at -34.60000000000002, 0 with speed 0.9, 0
-17 car B time to intersection 54.44444444444447
+17 car B is at -35.559999999999945, 0 with speed 0.84, 0
+17 car B time to intersection 58.333333333333265
 18 Active cars: ['A', 'B']
 18 car A is at 0, -32 with speed 0, 1
 18 car A time to intersection 49.0
-18 car B is at -33.700000000000024, 0 with speed 0.9, 0
-18 car B time to intersection 54.44444444444447
+18 car B is at -34.71999999999994, 0 with speed 0.84, 0
+18 car B time to intersection 58.333333333333265
 19 Active cars: ['A', 'B']
 19 car A is at 0, -31 with speed 0, 1
 19 car A time to intersection 49.0
-19 car B is at -32.800000000000026, 0 with speed 0.9, 0
-19 car B time to intersection 54.44444444444447
+19 car B is at -33.87999999999994, 0 with speed 0.84, 0
+19 car B time to intersection 58.33333333333326
 20 Active cars: ['A', 'B']
 20 car A is at 0, -30 with speed 0, 1
 20 car A time to intersection 49.0
-20 car B is at -31.900000000000027, 0 with speed 0.9, 0
-20 car B time to intersection 54.44444444444448
+20 car B is at -33.039999999999935, 0 with speed 0.84, 0
+20 car B time to intersection 58.33333333333325
 21 Active cars: ['A', 'B']
 21 car A is at 0, -29 with speed 0, 1
 21 car A time to intersection 49.0
-21 car B is at -31.00000000000003, 0 with speed 0.9, 0
-21 car B time to intersection 54.44444444444448
+21 car B is at -32.19999999999993, 0 with speed 0.84, 0
+21 car B time to intersection 58.33333333333325
 22 Active cars: ['A', 'B']
 22 car A is at 0, -28 with speed 0, 1
 22 car A time to intersection 49.0
-22 car B is at -30.10000000000003, 0 with speed 0.9, 0
-22 car B time to intersection 54.44444444444448
+22 car B is at -31.359999999999932, 0 with speed 0.84, 0
+22 car B time to intersection 58.33333333333325
 23 Active cars: ['A', 'B']
 23 car A is at 0, -27 with speed 0, 1
 23 car A time to intersection 49.0
-23 car B is at -29.20000000000003, 0 with speed 0.9, 0
-23 car B time to intersection 54.44444444444448
+23 car B is at -30.519999999999932, 0 with speed 0.84, 0
+23 car B time to intersection 58.33333333333325
 24 Active cars: ['A', 'B']
 24 car A is at 0, -26 with speed 0, 1
 24 car A time to intersection 49.0
-24 car B is at -28.300000000000033, 0 with speed 0.9, 0
-24 car B time to intersection 54.444444444444485
-25 Active cars: ['A', 'B']
+24 car B is at -29.679999999999932, 0 with speed 0.84, 0
+24 car B time to intersection 58.33333333333326
+25 Active cars: ['A', 'B', 'C']
 25 car A is at 0, -25 with speed 0, 1
 25 car A time to intersection 49.0
-25 car B is at -27.400000000000034, 0 with speed 0.9, 0
-25 car B time to intersection 54.444444444444485
-26 Active cars: ['A', 'B']
+25 car B is at -28.839999999999932, 0 with speed 0.84, 0
+25 car B time to intersection 58.33333333333326
+25 car C is at 0, -50 with speed 0, 1
+25 car C time to intersection 74.0
+26 Active cars: ['A', 'B', 'C']
 26 car A is at 0, -24 with speed 0, 1
 26 car A time to intersection 49.0
-26 car B is at -26.500000000000036, 0 with speed 0.9, 0
-26 car B time to intersection 54.444444444444485
-27 Active cars: ['A', 'B']
+26 car B is at -27.999999999999932, 0 with speed 0.84, 0
+26 car B time to intersection 58.33333333333326
+26 car C is at 0, -49 with speed 0, 1
+26 car C time to intersection 74.0
+27 Active cars: ['A', 'B', 'C']
 27 car A is at 0, -23 with speed 0, 1
 27 car A time to intersection 49.0
-27 car B is at -25.600000000000037, 0 with speed 0.9, 0
-27 car B time to intersection 54.444444444444485
-28 Active cars: ['A', 'B']
+27 car B is at -27.159999999999933, 0 with speed 0.84, 0
+27 car B time to intersection 58.33333333333326
+27 car C is at 0, -48 with speed 0, 1
+27 car C time to intersection 74.0
+28 Active cars: ['A', 'B', 'C', 'D']
 28 car A is at 0, -22 with speed 0, 1
 28 car A time to intersection 49.0
-28 car B is at -24.70000000000004, 0 with speed 0.9, 0
-28 car B time to intersection 54.444444444444485
-29 Active cars: ['A', 'B']
+28 car B is at -26.319999999999933, 0 with speed 0.84, 0
+28 car B time to intersection 58.33333333333326
+28 car C is at 0, -47 with speed 0, 1
+28 car C time to intersection 74.0
+28 car D is at -50, 0 with speed 0.84, 0
+28 car D time to intersection 86.52380952380952
+29 Active cars: ['A', 'B', 'C', 'D']
 29 car A is at 0, -21 with speed 0, 1
 29 car A time to intersection 49.0
-29 car B is at -23.80000000000004, 0 with speed 0.9, 0
-29 car B time to intersection 54.444444444444485
-30 Active cars: ['A', 'B']
+29 car B is at -25.479999999999933, 0 with speed 0.84, 0
+29 car B time to intersection 58.33333333333326
+29 car C is at 0, -46 with speed 0, 1
+29 car C time to intersection 74.0
+29 car D is at -49.16, 0 with speed 0.84, 0
+29 car D time to intersection 86.52380952380952
+30 Active cars: ['A', 'B', 'C', 'D']
 30 car A is at 0, -20 with speed 0, 1
 30 car A time to intersection 49.0
-30 car B is at -22.90000000000004, 0 with speed 0.9, 0
-30 car B time to intersection 54.44444444444449
-31 Active cars: ['A', 'B']
+30 car B is at -24.639999999999933, 0 with speed 0.84, 0
+30 car B time to intersection 58.33333333333326
+30 car C is at 0, -45 with speed 0, 1
+30 car C time to intersection 74.0
+30 car D is at -48.31999999999999, 0 with speed 0.84, 0
+30 car D time to intersection 86.52380952380952
+31 Active cars: ['A', 'B', 'C', 'D']
 31 car A is at 0, -19 with speed 0, 1
 31 car A time to intersection 49.0
-31 car B is at -22.000000000000043, 0 with speed 0.9, 0
-31 car B time to intersection 54.44444444444449
-32 Active cars: ['A', 'B']
+31 car B is at -23.799999999999933, 0 with speed 0.84, 0
+31 car B time to intersection 58.33333333333326
+31 car C is at 0, -44 with speed 0, 1
+31 car C time to intersection 74.0
+31 car D is at -47.47999999999999, 0 with speed 0.84, 0
+31 car D time to intersection 86.52380952380952
+32 Active cars: ['A', 'B', 'C', 'D', 'E']
 32 car A is at 0, -18 with speed 0, 1
 32 car A time to intersection 49.0
-32 car B is at -21.100000000000044, 0 with speed 0.9, 0
-32 car B time to intersection 54.4444444444445
-33 Active cars: ['A', 'B']
+32 car B is at -22.959999999999933, 0 with speed 0.84, 0
+32 car B time to intersection 58.33333333333326
+32 car C is at 0, -43 with speed 0, 1
+32 car C time to intersection 74.0
+32 car D is at -46.639999999999986, 0 with speed 0.84, 0
+32 car D time to intersection 86.5238095238095
+32 car E is at 0, -50 with speed 0, 1
+32 car E time to intersection 81.0
+33 Active cars: ['A', 'B', 'C', 'D', 'E']
 33 car A is at 0, -17 with speed 0, 1
 33 car A time to intersection 49.0
-33 car B is at -20.200000000000045, 0 with speed 0.9, 0
-33 car B time to intersection 54.4444444444445
-34 Active cars: ['A', 'B']
+33 car B is at -22.119999999999933, 0 with speed 0.84, 0
+33 car B time to intersection 58.33333333333326
+33 car C is at 0, -42 with speed 0, 1
+33 car C time to intersection 74.0
+33 car D is at -45.79999999999998, 0 with speed 0.84, 0
+33 car D time to intersection 86.5238095238095
+33 car E is at 0, -49 with speed 0, 1
+33 car E time to intersection 81.0
+34 Active cars: ['A', 'B', 'C', 'D', 'E']
 34 car A is at 0, -16 with speed 0, 1
 34 car A time to intersection 49.0
-34 car B is at -19.300000000000047, 0 with speed 0.9, 0
-34 car B time to intersection 54.4444444444445
-35 Active cars: ['A', 'B']
+34 car B is at -21.279999999999934, 0 with speed 0.84, 0
+34 car B time to intersection 58.33333333333326
+34 car C is at 0, -41 with speed 0, 1
+34 car C time to intersection 74.0
+34 car D is at -44.95999999999998, 0 with speed 0.84, 0
+34 car D time to intersection 86.52380952380949
+34 car E is at 0, -48 with speed 0, 1
+34 car E time to intersection 81.0
+35 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 35 car A is at 0, -15 with speed 0, 1
 35 car A time to intersection 49.0
-35 car B is at -18.40000000000005, 0 with speed 0.9, 0
-35 car B time to intersection 54.4444444444445
-36 Active cars: ['A', 'B']
+35 car B is at -20.439999999999934, 0 with speed 0.84, 0
+35 car B time to intersection 58.33333333333326
+35 car C is at 0, -40 with speed 0, 1
+35 car C time to intersection 74.0
+35 car D is at -44.119999999999976, 0 with speed 0.84, 0
+35 car D time to intersection 86.52380952380949
+35 car E is at 0, -47 with speed 0, 1
+35 car E time to intersection 81.0
+35 car F is at -50, 0 with speed 0.84, 0
+35 car F time to intersection 93.52380952380952
+36 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 36 car A is at 0, -14 with speed 0, 1
 36 car A time to intersection 49.0
-36 car B is at -17.50000000000005, 0 with speed 0.9, 0
-36 car B time to intersection 54.4444444444445
-37 Active cars: ['A', 'B']
+36 car B is at -19.599999999999934, 0 with speed 0.84, 0
+36 car B time to intersection 58.33333333333326
+36 car C is at 0, -39 with speed 0, 1
+36 car C time to intersection 74.0
+36 car D is at -43.27999999999997, 0 with speed 0.84, 0
+36 car D time to intersection 86.52380952380949
+36 car E is at 0, -46 with speed 0, 1
+36 car E time to intersection 81.0
+36 car F is at -49.16, 0 with speed 0.84, 0
+36 car F time to intersection 93.52380952380952
+37 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 37 car A is at 0, -13 with speed 0, 1
 37 car A time to intersection 49.0
-37 car B is at -16.60000000000005, 0 with speed 0.9, 0
-37 car B time to intersection 54.4444444444445
-38 Active cars: ['A', 'B']
+37 car B is at -18.759999999999934, 0 with speed 0.84, 0
+37 car B time to intersection 58.33333333333326
+37 car C is at 0, -38 with speed 0, 1
+37 car C time to intersection 74.0
+37 car D is at -42.43999999999997, 0 with speed 0.84, 0
+37 car D time to intersection 86.52380952380949
+37 car E is at 0, -45 with speed 0, 1
+37 car E time to intersection 81.0
+37 car F is at -48.31999999999999, 0 with speed 0.84, 0
+37 car F time to intersection 93.52380952380952
+38 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 38 car A is at 0, -12 with speed 0, 1
 38 car A time to intersection 49.0
-38 car B is at -15.70000000000005, 0 with speed 0.9, 0
-38 car B time to intersection 54.4444444444445
-39 Active cars: ['A', 'B']
+38 car B is at -17.919999999999934, 0 with speed 0.84, 0
+38 car B time to intersection 58.33333333333326
+38 car C is at 0, -37 with speed 0, 1
+38 car C time to intersection 74.0
+38 car D is at -41.599999999999966, 0 with speed 0.84, 0
+38 car D time to intersection 86.52380952380949
+38 car E is at 0, -44 with speed 0, 1
+38 car E time to intersection 81.0
+38 car F is at -47.47999999999999, 0 with speed 0.84, 0
+38 car F time to intersection 93.52380952380952
+39 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 39 car A is at 0, -11 with speed 0, 1
 39 car A time to intersection 49.0
-39 car B is at -14.80000000000005, 0 with speed 0.9, 0
-39 car B time to intersection 54.4444444444445
-40 Active cars: ['A', 'B']
+39 car B is at -17.079999999999934, 0 with speed 0.84, 0
+39 car B time to intersection 58.33333333333326
+39 car C is at 0, -36 with speed 0, 1
+39 car C time to intersection 74.0
+39 car D is at -40.75999999999996, 0 with speed 0.84, 0
+39 car D time to intersection 86.52380952380948
+39 car E is at 0, -43 with speed 0, 1
+39 car E time to intersection 81.0
+39 car F is at -46.639999999999986, 0 with speed 0.84, 0
+39 car F time to intersection 93.5238095238095
+40 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 40 car A is at 0, -10 with speed 0, 1
 40 car A time to intersection 49.0
-40 car B is at -13.90000000000005, 0 with speed 0.9, 0
-40 car B time to intersection 54.4444444444445
-41 Active cars: ['A', 'B']
+40 car B is at -16.239999999999934, 0 with speed 0.84, 0
+40 car B time to intersection 58.33333333333326
+40 car C is at 0, -35 with speed 0, 1
+40 car C time to intersection 74.0
+40 car D is at -39.91999999999996, 0 with speed 0.84, 0
+40 car D time to intersection 86.52380952380948
+40 car E is at 0, -42 with speed 0, 1
+40 car E time to intersection 81.0
+40 car F is at -45.79999999999998, 0 with speed 0.84, 0
+40 car F time to intersection 93.5238095238095
+41 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 41 car A is at 0, -9 with speed 0, 1
 41 car A time to intersection 49.0
-41 car B is at -13.00000000000005, 0 with speed 0.9, 0
-41 car B time to intersection 54.4444444444445
-42 Active cars: ['A', 'B']
+41 car B is at -15.399999999999935, 0 with speed 0.84, 0
+41 car B time to intersection 58.33333333333326
+41 car C is at 0, -34 with speed 0, 1
+41 car C time to intersection 74.0
+41 car D is at -39.079999999999956, 0 with speed 0.84, 0
+41 car D time to intersection 86.52380952380946
+41 car E is at 0, -41 with speed 0, 1
+41 car E time to intersection 81.0
+41 car F is at -44.95999999999998, 0 with speed 0.84, 0
+41 car F time to intersection 93.52380952380949
+42 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 42 car A is at 0, -8 with speed 0, 1
 42 car A time to intersection 49.0
-42 car B is at -12.10000000000005, 0 with speed 0.9, 0
-42 car B time to intersection 54.4444444444445
-43 Active cars: ['A', 'B']
+42 car B is at -14.559999999999935, 0 with speed 0.84, 0
+42 car B time to intersection 58.33333333333326
+42 car C is at 0, -33 with speed 0, 1
+42 car C time to intersection 74.0
+42 car D is at -38.23999999999995, 0 with speed 0.84, 0
+42 car D time to intersection 86.52380952380946
+42 car E is at 0, -40 with speed 0, 1
+42 car E time to intersection 81.0
+42 car F is at -44.119999999999976, 0 with speed 0.84, 0
+42 car F time to intersection 93.52380952380949
+43 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 43 car A is at 0, -7 with speed 0, 1
 43 car A time to intersection 49.0
-43 car B is at -11.200000000000049, 0 with speed 0.9, 0
-43 car B time to intersection 54.4444444444445
-44 Active cars: ['A', 'B']
+43 car B is at -13.719999999999935, 0 with speed 0.84, 0
+43 car B time to intersection 58.33333333333326
+43 car C is at 0, -32 with speed 0, 1
+43 car C time to intersection 74.0
+43 car D is at -37.39999999999995, 0 with speed 0.84, 0
+43 car D time to intersection 86.52380952380946
+43 car E is at 0, -39 with speed 0, 1
+43 car E time to intersection 81.0
+43 car F is at -43.27999999999997, 0 with speed 0.84, 0
+43 car F time to intersection 93.52380952380949
+44 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 44 car A is at 0, -6 with speed 0, 1
 44 car A time to intersection 49.0
-44 car B is at -10.300000000000049, 0 with speed 0.9, 0
-44 car B time to intersection 54.4444444444445
-45 Active cars: ['A', 'B']
+44 car B is at -12.879999999999935, 0 with speed 0.84, 0
+44 car B time to intersection 58.33333333333326
+44 car C is at 0, -31 with speed 0, 1
+44 car C time to intersection 74.0
+44 car D is at -36.559999999999945, 0 with speed 0.84, 0
+44 car D time to intersection 86.52380952380946
+44 car E is at 0, -38 with speed 0, 1
+44 car E time to intersection 81.0
+44 car F is at -42.43999999999997, 0 with speed 0.84, 0
+44 car F time to intersection 93.52380952380949
+45 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 45 car A is at 0, -5 with speed 0, 1
 45 car A time to intersection 49.0
-45 car B is at -9.400000000000048, 0 with speed 0.9, 0
-45 car B time to intersection 54.4444444444445
-46 Active cars: ['A', 'B']
+45 car B is at -12.039999999999935, 0 with speed 0.84, 0
+45 car B time to intersection 58.33333333333326
+45 car C is at 0, -30 with speed 0, 1
+45 car C time to intersection 74.0
+45 car D is at -35.71999999999994, 0 with speed 0.84, 0
+45 car D time to intersection 86.52380952380946
+45 car E is at 0, -37 with speed 0, 1
+45 car E time to intersection 81.0
+45 car F is at -41.599999999999966, 0 with speed 0.84, 0
+45 car F time to intersection 93.52380952380949
+46 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 46 car A is at 0, -4 with speed 0, 1
 46 car A time to intersection 49.0
-46 car B is at -8.500000000000048, 0 with speed 0.9, 0
-46 car B time to intersection 54.4444444444445
-47 Active cars: ['A', 'B']
+46 car B is at -11.199999999999935, 0 with speed 0.84, 0
+46 car B time to intersection 58.33333333333326
+46 car C is at 0, -29 with speed 0, 1
+46 car C time to intersection 74.0
+46 car D is at -34.87999999999994, 0 with speed 0.84, 0
+46 car D time to intersection 86.52380952380945
+46 car E is at 0, -36 with speed 0, 1
+46 car E time to intersection 81.0
+46 car F is at -40.75999999999996, 0 with speed 0.84, 0
+46 car F time to intersection 93.52380952380948
+47 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 47 car A is at 0, -3 with speed 0, 1
 47 car A time to intersection 49.0
-47 car B is at -7.600000000000048, 0 with speed 0.9, 0
-47 car B time to intersection 54.4444444444445
-48 Active cars: ['A', 'B']
+47 car B is at -10.359999999999935, 0 with speed 0.84, 0
+47 car B time to intersection 58.33333333333326
+47 car C is at 0, -28 with speed 0, 1
+47 car C time to intersection 74.0
+47 car D is at -34.039999999999935, 0 with speed 0.84, 0
+47 car D time to intersection 86.52380952380945
+47 car E is at 0, -35 with speed 0, 1
+47 car E time to intersection 81.0
+47 car F is at -39.91999999999996, 0 with speed 0.84, 0
+47 car F time to intersection 93.52380952380948
+48 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 48 car A is at 0, -2 with speed 0, 1
 48 car A time to intersection 49.0
-48 car B is at -6.700000000000047, 0 with speed 0.9, 0
-48 car B time to intersection 54.4444444444445
-49 Active cars: ['A', 'B']
+48 car B is at -9.519999999999936, 0 with speed 0.84, 0
+48 car B time to intersection 58.33333333333326
+48 car C is at 0, -27 with speed 0, 1
+48 car C time to intersection 74.0
+48 car D is at -33.19999999999993, 0 with speed 0.84, 0
+48 car D time to intersection 86.52380952380943
+48 car E is at 0, -34 with speed 0, 1
+48 car E time to intersection 81.0
+48 car F is at -39.079999999999956, 0 with speed 0.84, 0
+48 car F time to intersection 93.52380952380946
+49 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
 49 car A is at 0, -1 with speed 0, 1
 49 car A time to intersection 49.0
-49 car B is at -5.800000000000047, 0 with speed 0.9, 0
-49 car B time to intersection 54.4444444444445
+49 car B is at -8.679999999999936, 0 with speed 0.84, 0
+49 car B time to intersection 58.33333333333326
 49 car A has passed intersection. ignoring for collision prediction
-50 Active cars: ['A', 'B']
-50 car A is at 1, 0 with speed 0.9, 0
-50 car A time to intersection 52.111111111111114
+49 car C is at 0, -26 with speed 0, 1
+49 car C time to intersection 74.0
+49 car A has passed intersection. ignoring for collision prediction
+49 car D is at -32.35999999999993, 0 with speed 0.84, 0
+49 car D time to intersection 86.52380952380943
+49 car A has passed intersection. ignoring for collision prediction
+49 car E is at 0, -33 with speed 0, 1
+49 car E time to intersection 81.0
+49 car A has passed intersection. ignoring for collision prediction
+49 car F is at -38.23999999999995, 0 with speed 0.84, 0
+49 car F time to intersection 93.52380952380946
+49 car A has passed intersection. ignoring for collision prediction
+50 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+50 car A is at 1, 0 with speed 0.84, 0
+50 car A time to intersection 52.19047619047619
 50 car B has passed intersection. ignoring for collision prediction
-50 car B is at -4.9000000000000465, 0 with speed 0.9, 0
-50 car B time to intersection 54.44444444444449
+50 car C has passed intersection. ignoring for collision prediction
+50 car D has passed intersection. ignoring for collision prediction
+50 car E has passed intersection. ignoring for collision prediction
+50 car F has passed intersection. ignoring for collision prediction
+50 car B is at -7.839999999999936, 0 with speed 0.84, 0
+50 car B time to intersection 58.33333333333326
 50 car A has passed intersection. ignoring for collision prediction
-51 Active cars: ['A', 'B']
-51 car A is at 1.9, 0 with speed 0.9, 0
-51 car A time to intersection 54.111111111111114
+50 car C is at 0, -25 with speed 0, 1
+50 car C time to intersection 74.0
+50 car A has passed intersection. ignoring for collision prediction
+50 car D is at -31.51999999999993, 0 with speed 0.84, 0
+50 car D time to intersection 86.52380952380943
+50 car A has passed intersection. ignoring for collision prediction
+50 car E is at 0, -32 with speed 0, 1
+50 car E time to intersection 81.0
+50 car A has passed intersection. ignoring for collision prediction
+50 car F is at -37.39999999999995, 0 with speed 0.84, 0
+50 car F time to intersection 93.52380952380946
+50 car A has passed intersection. ignoring for collision prediction
+51 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+51 car A is at 1.8399999999999999, 0 with speed 0.84, 0
+51 car A time to intersection 54.19047619047619
 51 car B has passed intersection. ignoring for collision prediction
-51 car B is at -4.000000000000046, 0 with speed 0.9, 0
-51 car B time to intersection 54.44444444444449
+51 car C has passed intersection. ignoring for collision prediction
+51 car D has passed intersection. ignoring for collision prediction
+51 car E has passed intersection. ignoring for collision prediction
+51 car F has passed intersection. ignoring for collision prediction
+51 car B is at -6.999999999999936, 0 with speed 0.84, 0
+51 car B time to intersection 58.33333333333326
 51 car A has passed intersection. ignoring for collision prediction
-52 Active cars: ['A', 'B']
-52 car A is at 2.8, 0 with speed 0.9, 0
-52 car A time to intersection 56.111111111111114
+51 car C is at 0, -24 with speed 0, 1
+51 car C time to intersection 74.0
+51 car A has passed intersection. ignoring for collision prediction
+51 car D is at -30.67999999999993, 0 with speed 0.84, 0
+51 car D time to intersection 86.52380952380943
+51 car A has passed intersection. ignoring for collision prediction
+51 car E is at 0, -31 with speed 0, 1
+51 car E time to intersection 81.0
+51 car A has passed intersection. ignoring for collision prediction
+51 car F is at -36.559999999999945, 0 with speed 0.84, 0
+51 car F time to intersection 93.52380952380946
+51 car A has passed intersection. ignoring for collision prediction
+52 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+52 car A is at 2.6799999999999997, 0 with speed 0.84, 0
+52 car A time to intersection 56.19047619047619
 52 car B has passed intersection. ignoring for collision prediction
-52 car B is at -3.1000000000000463, 0 with speed 0.9, 0
-52 car B time to intersection 54.44444444444449
+52 car C has passed intersection. ignoring for collision prediction
+52 car D has passed intersection. ignoring for collision prediction
+52 car E has passed intersection. ignoring for collision prediction
+52 car F has passed intersection. ignoring for collision prediction
+52 car B is at -6.159999999999936, 0 with speed 0.84, 0
+52 car B time to intersection 58.33333333333326
 52 car A has passed intersection. ignoring for collision prediction
-53 Active cars: ['A', 'B']
-53 car A is at 3.6999999999999997, 0 with speed 0.9, 0
-53 car A time to intersection 58.111111111111114
+52 car C is at 0, -23 with speed 0, 1
+52 car C time to intersection 74.0
+52 car A has passed intersection. ignoring for collision prediction
+52 car D is at -29.83999999999993, 0 with speed 0.84, 0
+52 car D time to intersection 86.52380952380943
+52 car A has passed intersection. ignoring for collision prediction
+52 car E is at 0, -30 with speed 0, 1
+52 car E time to intersection 81.0
+52 car A has passed intersection. ignoring for collision prediction
+52 car F is at -35.71999999999994, 0 with speed 0.84, 0
+52 car F time to intersection 93.52380952380946
+52 car A has passed intersection. ignoring for collision prediction
+53 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+53 car A is at 3.5199999999999996, 0 with speed 0.84, 0
+53 car A time to intersection 58.19047619047619
 53 car B has passed intersection. ignoring for collision prediction
-53 car B is at -2.2000000000000464, 0 with speed 0.9, 0
-53 car B time to intersection 54.44444444444449
+53 car C has passed intersection. ignoring for collision prediction
+53 car D has passed intersection. ignoring for collision prediction
+53 car E has passed intersection. ignoring for collision prediction
+53 car F has passed intersection. ignoring for collision prediction
+53 car B is at -5.319999999999936, 0 with speed 0.84, 0
+53 car B time to intersection 58.33333333333326
 53 car A has passed intersection. ignoring for collision prediction
-54 Active cars: ['A', 'B']
-54 car A is at 4.6, 0 with speed 0.9, 0
-54 car A time to intersection 60.111111111111114
+53 car C is at 0, -22 with speed 0, 1
+53 car C time to intersection 74.0
+53 car A has passed intersection. ignoring for collision prediction
+53 car D is at -28.99999999999993, 0 with speed 0.84, 0
+53 car D time to intersection 86.52380952380943
+53 car A has passed intersection. ignoring for collision prediction
+53 car E is at 0, -29 with speed 0, 1
+53 car E time to intersection 81.0
+53 car A has passed intersection. ignoring for collision prediction
+53 car F is at -34.87999999999994, 0 with speed 0.84, 0
+53 car F time to intersection 93.52380952380945
+53 car A has passed intersection. ignoring for collision prediction
+54 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+54 car A is at 4.359999999999999, 0 with speed 0.84, 0
+54 car A time to intersection 60.19047619047619
 54 car B has passed intersection. ignoring for collision prediction
-54 car B is at -1.3000000000000465, 0 with speed 0.9, 0
-54 car B time to intersection 54.44444444444449
+54 car C has passed intersection. ignoring for collision prediction
+54 car D has passed intersection. ignoring for collision prediction
+54 car E has passed intersection. ignoring for collision prediction
+54 car F has passed intersection. ignoring for collision prediction
+54 car B is at -4.4799999999999365, 0 with speed 0.84, 0
+54 car B time to intersection 58.33333333333326
 54 car A has passed intersection. ignoring for collision prediction
-55 Active cars: ['A', 'B']
-55 car A is at 5.5, 0 with speed 0.9, 0
-55 car A time to intersection 62.111111111111114
+54 car C is at 0, -21 with speed 0, 1
+54 car C time to intersection 74.0
+54 car A has passed intersection. ignoring for collision prediction
+54 car D is at -28.15999999999993, 0 with speed 0.84, 0
+54 car D time to intersection 86.52380952380943
+54 car A has passed intersection. ignoring for collision prediction
+54 car E is at 0, -28 with speed 0, 1
+54 car E time to intersection 81.0
+54 car A has passed intersection. ignoring for collision prediction
+54 car F is at -34.039999999999935, 0 with speed 0.84, 0
+54 car F time to intersection 93.52380952380945
+54 car A has passed intersection. ignoring for collision prediction
+55 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+55 car A is at 5.199999999999999, 0 with speed 0.84, 0
+55 car A time to intersection 62.19047619047619
 55 car B has passed intersection. ignoring for collision prediction
-55 car B is at 1, -1 with speed 0, -1
-55 car B time to intersection 58.0
+55 car C has passed intersection. ignoring for collision prediction
+55 car D has passed intersection. ignoring for collision prediction
+55 car E has passed intersection. ignoring for collision prediction
+55 car F has passed intersection. ignoring for collision prediction
+55 car B is at -3.6399999999999366, 0 with speed 0.84, 0
+55 car B time to intersection 58.33333333333326
 55 car A has passed intersection. ignoring for collision prediction
-56 Active cars: ['A', 'B']
-56 car A is at 6.4, 0 with speed 0.9, 0
-56 car A time to intersection 64.11111111111111
+55 car C is at 0, -20 with speed 0, 1
+55 car C time to intersection 74.0
+55 car A has passed intersection. ignoring for collision prediction
+55 car D is at -27.31999999999993, 0 with speed 0.84, 0
+55 car D time to intersection 86.52380952380943
+55 car A has passed intersection. ignoring for collision prediction
+55 car E is at 0, -27 with speed 0, 1
+55 car E time to intersection 81.0
+55 car A has passed intersection. ignoring for collision prediction
+55 car F is at -33.19999999999993, 0 with speed 0.84, 0
+55 car F time to intersection 93.52380952380943
+55 car A has passed intersection. ignoring for collision prediction
+56 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+56 car A is at 6.039999999999999, 0 with speed 0.84, 0
+56 car A time to intersection 64.19047619047619
 56 car B has passed intersection. ignoring for collision prediction
-56 car B is at 1, -2 with speed 0, -1
-56 car B time to intersection 60.0
+56 car C has passed intersection. ignoring for collision prediction
+56 car D has passed intersection. ignoring for collision prediction
+56 car E has passed intersection. ignoring for collision prediction
+56 car F has passed intersection. ignoring for collision prediction
+56 car B is at -2.7999999999999368, 0 with speed 0.84, 0
+56 car B time to intersection 58.33333333333326
 56 car A has passed intersection. ignoring for collision prediction
-57 Active cars: ['A', 'B']
-57 car A is at 7.300000000000001, 0 with speed 0.9, 0
-57 car A time to intersection 66.11111111111111
+56 car C is at 0, -19 with speed 0, 1
+56 car C time to intersection 74.0
+56 car A has passed intersection. ignoring for collision prediction
+56 car D is at -26.47999999999993, 0 with speed 0.84, 0
+56 car D time to intersection 86.52380952380943
+56 car A has passed intersection. ignoring for collision prediction
+56 car E is at 0, -26 with speed 0, 1
+56 car E time to intersection 81.0
+56 car A has passed intersection. ignoring for collision prediction
+56 car F is at -32.35999999999993, 0 with speed 0.84, 0
+56 car F time to intersection 93.52380952380943
+56 car A has passed intersection. ignoring for collision prediction
+57 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+57 car A is at 6.879999999999999, 0 with speed 0.84, 0
+57 car A time to intersection 66.19047619047619
 57 car B has passed intersection. ignoring for collision prediction
-57 car B is at 1, -3 with speed 0, -1
-57 car B time to intersection 62.0
+57 car C has passed intersection. ignoring for collision prediction
+57 car D has passed intersection. ignoring for collision prediction
+57 car E has passed intersection. ignoring for collision prediction
+57 car F has passed intersection. ignoring for collision prediction
+57 car B is at -1.959999999999937, 0 with speed 0.84, 0
+57 car B time to intersection 58.33333333333326
 57 car A has passed intersection. ignoring for collision prediction
-58 Active cars: ['A', 'B']
-58 car A is at 8.200000000000001, 0 with speed 0.9, 0
-58 car A time to intersection 68.11111111111111
+57 car C is at 0, -18 with speed 0, 1
+57 car C time to intersection 74.0
+57 car A has passed intersection. ignoring for collision prediction
+57 car D is at -25.63999999999993, 0 with speed 0.84, 0
+57 car D time to intersection 86.52380952380943
+57 car A has passed intersection. ignoring for collision prediction
+57 car E is at 0, -25 with speed 0, 1
+57 car E time to intersection 81.0
+57 car A has passed intersection. ignoring for collision prediction
+57 car F is at -31.51999999999993, 0 with speed 0.84, 0
+57 car F time to intersection 93.52380952380943
+57 car A has passed intersection. ignoring for collision prediction
+58 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+58 car A is at 7.719999999999999, 0 with speed 0.84, 0
+58 car A time to intersection 68.19047619047619
 58 car B has passed intersection. ignoring for collision prediction
-58 car B is at 1, -4 with speed 0, -1
-58 car B time to intersection 64.0
+58 car C has passed intersection. ignoring for collision prediction
+58 car D has passed intersection. ignoring for collision prediction
+58 car E has passed intersection. ignoring for collision prediction
+58 car F has passed intersection. ignoring for collision prediction
+58 car B is at -1.119999999999937, 0 with speed 0.84, 0
+58 car B time to intersection 58.33333333333326
 58 car A has passed intersection. ignoring for collision prediction
-59 Active cars: ['A', 'B']
-59 car A is at 9.100000000000001, 0 with speed 0.9, 0
-59 car A time to intersection 70.11111111111111
+58 car C is at 0, -17 with speed 0, 1
+58 car C time to intersection 74.0
+58 car A has passed intersection. ignoring for collision prediction
+58 car B has passed intersection. ignoring for collision prediction
+58 car D is at -24.79999999999993, 0 with speed 0.84, 0
+58 car D time to intersection 86.52380952380943
+58 car A has passed intersection. ignoring for collision prediction
+58 car B has passed intersection. ignoring for collision prediction
+58 car E is at 0, -24 with speed 0, 1
+58 car E time to intersection 81.0
+58 car A has passed intersection. ignoring for collision prediction
+58 car B has passed intersection. ignoring for collision prediction
+58 car F is at -30.67999999999993, 0 with speed 0.84, 0
+58 car F time to intersection 93.52380952380943
+58 car A has passed intersection. ignoring for collision prediction
+58 car B has passed intersection. ignoring for collision prediction
+59 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+59 car A is at 8.559999999999999, 0 with speed 0.84, 0
+59 car A time to intersection 70.19047619047619
 59 car B has passed intersection. ignoring for collision prediction
-59 A has left the simulation
-60 Active cars: ['B']
-60 car B is at 1, -5 with speed 0, -1
-60 car B time to intersection 67.0
+59 car C has passed intersection. ignoring for collision prediction
+59 car D has passed intersection. ignoring for collision prediction
+59 car E has passed intersection. ignoring for collision prediction
+59 car F has passed intersection. ignoring for collision prediction
+59 car B is at 1, -1 with speed 0, -1
+59 car B time to intersection 62.0
+59 car A has passed intersection. ignoring for collision prediction
+59 car C has passed intersection. ignoring for collision prediction
+59 car D has passed intersection. ignoring for collision prediction
+59 car E has passed intersection. ignoring for collision prediction
+59 car F has passed intersection. ignoring for collision prediction
+59 car C is at 0, -16 with speed 0, 1
+59 car C time to intersection 74.0
+59 car A has passed intersection. ignoring for collision prediction
+59 car B has passed intersection. ignoring for collision prediction
+59 car D is at -23.95999999999993, 0 with speed 0.84, 0
+59 car D time to intersection 86.52380952380943
+59 car A has passed intersection. ignoring for collision prediction
+59 car B has passed intersection. ignoring for collision prediction
+59 car E is at 0, -23 with speed 0, 1
+59 car E time to intersection 81.0
+59 car A has passed intersection. ignoring for collision prediction
+59 car B has passed intersection. ignoring for collision prediction
+59 car F is at -29.83999999999993, 0 with speed 0.84, 0
+59 car F time to intersection 93.52380952380943
+59 car A has passed intersection. ignoring for collision prediction
+59 car B has passed intersection. ignoring for collision prediction
+60 Active cars: ['A', 'B', 'C', 'D', 'E', 'F']
+60 car A is at 9.399999999999999, 0 with speed 0.84, 0
+60 car A time to intersection 72.19047619047619
+60 car B has passed intersection. ignoring for collision prediction
+60 car C has passed intersection. ignoring for collision prediction
+60 car D has passed intersection. ignoring for collision prediction
+60 car E has passed intersection. ignoring for collision prediction
+60 car F has passed intersection. ignoring for collision prediction
+60 A has left the simulation
+60 car C is at 0, -15 with speed 0, 1
+60 car C time to intersection 74.0
 60 car A has passed intersection. ignoring for collision prediction
-61 Active cars: ['B']
-61 car B is at 1, -6 with speed 0, -1
-61 car B time to intersection 69.0
+60 car B has passed intersection. ignoring for collision prediction
+60 car D is at -23.11999999999993, 0 with speed 0.84, 0
+60 car D time to intersection 86.52380952380943
+60 car A has passed intersection. ignoring for collision prediction
+60 car B has passed intersection. ignoring for collision prediction
+60 car E is at 0, -22 with speed 0, 1
+60 car E time to intersection 81.0
+60 car A has passed intersection. ignoring for collision prediction
+60 car B has passed intersection. ignoring for collision prediction
+60 car F is at -28.99999999999993, 0 with speed 0.84, 0
+60 car F time to intersection 93.52380952380943
+60 car A has passed intersection. ignoring for collision prediction
+60 car B has passed intersection. ignoring for collision prediction
+61 Active cars: ['B', 'C', 'D', 'E', 'F']
+61 car B is at 1, -2 with speed 0, -1
+61 car B time to intersection 65.0
 61 car A has passed intersection. ignoring for collision prediction
-62 Active cars: ['B']
-62 car B is at 1, -7 with speed 0, -1
-62 car B time to intersection 71.0
+61 car C has passed intersection. ignoring for collision prediction
+61 car D has passed intersection. ignoring for collision prediction
+61 car E has passed intersection. ignoring for collision prediction
+61 car F has passed intersection. ignoring for collision prediction
+61 car C is at 0, -14 with speed 0, 1
+61 car C time to intersection 74.0
+61 car A has passed intersection. ignoring for collision prediction
+61 car B has passed intersection. ignoring for collision prediction
+61 car D is at -22.27999999999993, 0 with speed 0.84, 0
+61 car D time to intersection 86.52380952380943
+61 car A has passed intersection. ignoring for collision prediction
+61 car B has passed intersection. ignoring for collision prediction
+61 car E is at 0, -21 with speed 0, 1
+61 car E time to intersection 81.0
+61 car A has passed intersection. ignoring for collision prediction
+61 car B has passed intersection. ignoring for collision prediction
+61 car F is at -28.15999999999993, 0 with speed 0.84, 0
+61 car F time to intersection 93.52380952380943
+61 car A has passed intersection. ignoring for collision prediction
+61 car B has passed intersection. ignoring for collision prediction
+62 Active cars: ['B', 'C', 'D', 'E', 'F']
+62 car B is at 1, -3 with speed 0, -1
+62 car B time to intersection 67.0
 62 car A has passed intersection. ignoring for collision prediction
-63 Active cars: ['B']
-63 car B is at 1, -8 with speed 0, -1
-63 car B time to intersection 73.0
+62 car C has passed intersection. ignoring for collision prediction
+62 car D has passed intersection. ignoring for collision prediction
+62 car E has passed intersection. ignoring for collision prediction
+62 car F has passed intersection. ignoring for collision prediction
+62 car C is at 0, -13 with speed 0, 1
+62 car C time to intersection 74.0
+62 car A has passed intersection. ignoring for collision prediction
+62 car B has passed intersection. ignoring for collision prediction
+62 car D is at -21.43999999999993, 0 with speed 0.84, 0
+62 car D time to intersection 86.52380952380943
+62 car A has passed intersection. ignoring for collision prediction
+62 car B has passed intersection. ignoring for collision prediction
+62 car E is at 0, -20 with speed 0, 1
+62 car E time to intersection 81.0
+62 car A has passed intersection. ignoring for collision prediction
+62 car B has passed intersection. ignoring for collision prediction
+62 car F is at -27.31999999999993, 0 with speed 0.84, 0
+62 car F time to intersection 93.52380952380943
+62 car A has passed intersection. ignoring for collision prediction
+62 car B has passed intersection. ignoring for collision prediction
+63 Active cars: ['B', 'C', 'D', 'E', 'F']
+63 car B is at 1, -4 with speed 0, -1
+63 car B time to intersection 69.0
 63 car A has passed intersection. ignoring for collision prediction
-64 Active cars: ['B']
-64 car B is at 1, -9 with speed 0, -1
-64 car B time to intersection 75.0
+63 car C has passed intersection. ignoring for collision prediction
+63 car D has passed intersection. ignoring for collision prediction
+63 car E has passed intersection. ignoring for collision prediction
+63 car F has passed intersection. ignoring for collision prediction
+63 car C is at 0, -12 with speed 0, 1
+63 car C time to intersection 74.0
+63 car A has passed intersection. ignoring for collision prediction
+63 car B has passed intersection. ignoring for collision prediction
+63 car D is at -20.59999999999993, 0 with speed 0.84, 0
+63 car D time to intersection 86.52380952380943
+63 car A has passed intersection. ignoring for collision prediction
+63 car B has passed intersection. ignoring for collision prediction
+63 car E is at 0, -19 with speed 0, 1
+63 car E time to intersection 81.0
+63 car A has passed intersection. ignoring for collision prediction
+63 car B has passed intersection. ignoring for collision prediction
+63 car F is at -26.47999999999993, 0 with speed 0.84, 0
+63 car F time to intersection 93.52380952380943
+63 car A has passed intersection. ignoring for collision prediction
+63 car B has passed intersection. ignoring for collision prediction
+64 Active cars: ['B', 'C', 'D', 'E', 'F']
+64 car B is at 1, -5 with speed 0, -1
+64 car B time to intersection 71.0
 64 car A has passed intersection. ignoring for collision prediction
-64 B has left the simulation
-64 All cars have left the simulation
-64 Simulation ended with srf 0.1
+64 car C has passed intersection. ignoring for collision prediction
+64 car D has passed intersection. ignoring for collision prediction
+64 car E has passed intersection. ignoring for collision prediction
+64 car F has passed intersection. ignoring for collision prediction
+64 car C is at 0, -11 with speed 0, 1
+64 car C time to intersection 74.0
+64 car A has passed intersection. ignoring for collision prediction
+64 car B has passed intersection. ignoring for collision prediction
+64 car D is at -19.75999999999993, 0 with speed 0.84, 0
+64 car D time to intersection 86.52380952380945
+64 car A has passed intersection. ignoring for collision prediction
+64 car B has passed intersection. ignoring for collision prediction
+64 car E is at 0, -18 with speed 0, 1
+64 car E time to intersection 81.0
+64 car A has passed intersection. ignoring for collision prediction
+64 car B has passed intersection. ignoring for collision prediction
+64 car F is at -25.63999999999993, 0 with speed 0.84, 0
+64 car F time to intersection 93.52380952380943
+64 car A has passed intersection. ignoring for collision prediction
+64 car B has passed intersection. ignoring for collision prediction
+65 Active cars: ['B', 'C', 'D', 'E', 'F']
+65 car B is at 1, -6 with speed 0, -1
+65 car B time to intersection 73.0
+65 car A has passed intersection. ignoring for collision prediction
+65 car C has passed intersection. ignoring for collision prediction
+65 car D has passed intersection. ignoring for collision prediction
+65 car E has passed intersection. ignoring for collision prediction
+65 car F has passed intersection. ignoring for collision prediction
+65 car C is at 0, -10 with speed 0, 1
+65 car C time to intersection 74.0
+65 car A has passed intersection. ignoring for collision prediction
+65 car B has passed intersection. ignoring for collision prediction
+65 car D is at -18.91999999999993, 0 with speed 0.84, 0
+65 car D time to intersection 86.52380952380945
+65 car A has passed intersection. ignoring for collision prediction
+65 car B has passed intersection. ignoring for collision prediction
+65 car E is at 0, -17 with speed 0, 1
+65 car E time to intersection 81.0
+65 car A has passed intersection. ignoring for collision prediction
+65 car B has passed intersection. ignoring for collision prediction
+65 car F is at -24.79999999999993, 0 with speed 0.84, 0
+65 car F time to intersection 93.52380952380943
+65 car A has passed intersection. ignoring for collision prediction
+65 car B has passed intersection. ignoring for collision prediction
+66 Active cars: ['B', 'C', 'D', 'E', 'F']
+66 car B is at 1, -7 with speed 0, -1
+66 car B time to intersection 75.0
+66 car A has passed intersection. ignoring for collision prediction
+66 car C has passed intersection. ignoring for collision prediction
+66 car D has passed intersection. ignoring for collision prediction
+66 car E has passed intersection. ignoring for collision prediction
+66 car F has passed intersection. ignoring for collision prediction
+66 car C is at 0, -9 with speed 0, 1
+66 car C time to intersection 74.0
+66 car A has passed intersection. ignoring for collision prediction
+66 car B has passed intersection. ignoring for collision prediction
+66 car D is at -18.07999999999993, 0 with speed 0.84, 0
+66 car D time to intersection 86.52380952380945
+66 car A has passed intersection. ignoring for collision prediction
+66 car B has passed intersection. ignoring for collision prediction
+66 car E is at 0, -16 with speed 0, 1
+66 car E time to intersection 81.0
+66 car A has passed intersection. ignoring for collision prediction
+66 car B has passed intersection. ignoring for collision prediction
+66 car F is at -23.95999999999993, 0 with speed 0.84, 0
+66 car F time to intersection 93.52380952380943
+66 car A has passed intersection. ignoring for collision prediction
+66 car B has passed intersection. ignoring for collision prediction
+67 Active cars: ['B', 'C', 'D', 'E', 'F']
+67 car B is at 1, -8 with speed 0, -1
+67 car B time to intersection 77.0
+67 car A has passed intersection. ignoring for collision prediction
+67 car C has passed intersection. ignoring for collision prediction
+67 car D has passed intersection. ignoring for collision prediction
+67 car E has passed intersection. ignoring for collision prediction
+67 car F has passed intersection. ignoring for collision prediction
+67 car C is at 0, -8 with speed 0, 1
+67 car C time to intersection 74.0
+67 car A has passed intersection. ignoring for collision prediction
+67 car B has passed intersection. ignoring for collision prediction
+67 car D is at -17.23999999999993, 0 with speed 0.84, 0
+67 car D time to intersection 86.52380952380945
+67 car A has passed intersection. ignoring for collision prediction
+67 car B has passed intersection. ignoring for collision prediction
+67 car E is at 0, -15 with speed 0, 1
+67 car E time to intersection 81.0
+67 car A has passed intersection. ignoring for collision prediction
+67 car B has passed intersection. ignoring for collision prediction
+67 car F is at -23.11999999999993, 0 with speed 0.84, 0
+67 car F time to intersection 93.52380952380943
+67 car A has passed intersection. ignoring for collision prediction
+67 car B has passed intersection. ignoring for collision prediction
+68 Active cars: ['B', 'C', 'D', 'E', 'F']
+68 car B is at 1, -9 with speed 0, -1
+68 car B time to intersection 79.0
+68 car A has passed intersection. ignoring for collision prediction
+68 car C has passed intersection. ignoring for collision prediction
+68 car D has passed intersection. ignoring for collision prediction
+68 car E has passed intersection. ignoring for collision prediction
+68 car F has passed intersection. ignoring for collision prediction
+68 B has left the simulation
+68 car D is at -16.39999999999993, 0 with speed 0.84, 0
+68 car D time to intersection 86.52380952380945
+68 car A has passed intersection. ignoring for collision prediction
+68 car B has passed intersection. ignoring for collision prediction
+68 car E is at 0, -14 with speed 0, 1
+68 car E time to intersection 81.0
+68 car A has passed intersection. ignoring for collision prediction
+68 car B has passed intersection. ignoring for collision prediction
+68 car F is at -22.27999999999993, 0 with speed 0.84, 0
+68 car F time to intersection 93.52380952380943
+68 car A has passed intersection. ignoring for collision prediction
+68 car B has passed intersection. ignoring for collision prediction
+69 Active cars: ['C', 'D', 'E', 'F']
+69 car C is at 0, -7 with speed 0, 1
+69 car C time to intersection 75.0
+69 car A has passed intersection. ignoring for collision prediction
+69 car B has passed intersection. ignoring for collision prediction
+69 car D is at -15.559999999999931, 0 with speed 0.84, 0
+69 car D time to intersection 86.52380952380945
+69 car A has passed intersection. ignoring for collision prediction
+69 car B has passed intersection. ignoring for collision prediction
+69 car E is at 0, -13 with speed 0, 1
+69 car E time to intersection 81.0
+69 car A has passed intersection. ignoring for collision prediction
+69 car B has passed intersection. ignoring for collision prediction
+69 car F is at -21.43999999999993, 0 with speed 0.84, 0
+69 car F time to intersection 93.52380952380943
+69 car A has passed intersection. ignoring for collision prediction
+69 car B has passed intersection. ignoring for collision prediction
+70 Active cars: ['C', 'D', 'E', 'F']
+70 car C is at 0, -6 with speed 0, 1
+70 car C time to intersection 75.0
+70 car A has passed intersection. ignoring for collision prediction
+70 car B has passed intersection. ignoring for collision prediction
+70 car D is at -14.719999999999931, 0 with speed 0.84, 0
+70 car D time to intersection 86.52380952380945
+70 car A has passed intersection. ignoring for collision prediction
+70 car B has passed intersection. ignoring for collision prediction
+70 car E is at 0, -12 with speed 0, 1
+70 car E time to intersection 81.0
+70 car A has passed intersection. ignoring for collision prediction
+70 car B has passed intersection. ignoring for collision prediction
+70 car F is at -20.59999999999993, 0 with speed 0.84, 0
+70 car F time to intersection 93.52380952380943
+70 car A has passed intersection. ignoring for collision prediction
+70 car B has passed intersection. ignoring for collision prediction
+71 Active cars: ['C', 'D', 'E', 'F']
+71 car C is at 0, -5 with speed 0, 1
+71 car C time to intersection 75.0
+71 car A has passed intersection. ignoring for collision prediction
+71 car B has passed intersection. ignoring for collision prediction
+71 car D is at -13.879999999999932, 0 with speed 0.84, 0
+71 car D time to intersection 86.52380952380945
+71 car A has passed intersection. ignoring for collision prediction
+71 car B has passed intersection. ignoring for collision prediction
+71 car E is at 0, -11 with speed 0, 1
+71 car E time to intersection 81.0
+71 car A has passed intersection. ignoring for collision prediction
+71 car B has passed intersection. ignoring for collision prediction
+71 car F is at -19.75999999999993, 0 with speed 0.84, 0
+71 car F time to intersection 93.52380952380945
+71 car A has passed intersection. ignoring for collision prediction
+71 car B has passed intersection. ignoring for collision prediction
+72 Active cars: ['C', 'D', 'E', 'F']
+72 car C is at 0, -4 with speed 0, 1
+72 car C time to intersection 75.0
+72 car A has passed intersection. ignoring for collision prediction
+72 car B has passed intersection. ignoring for collision prediction
+72 car D is at -13.039999999999932, 0 with speed 0.84, 0
+72 car D time to intersection 86.52380952380945
+72 car A has passed intersection. ignoring for collision prediction
+72 car B has passed intersection. ignoring for collision prediction
+72 car E is at 0, -10 with speed 0, 1
+72 car E time to intersection 81.0
+72 car A has passed intersection. ignoring for collision prediction
+72 car B has passed intersection. ignoring for collision prediction
+72 car F is at -18.91999999999993, 0 with speed 0.84, 0
+72 car F time to intersection 93.52380952380945
+72 car A has passed intersection. ignoring for collision prediction
+72 car B has passed intersection. ignoring for collision prediction
+73 Active cars: ['C', 'D', 'E', 'F']
+73 car C is at 0, -3 with speed 0, 1
+73 car C time to intersection 75.0
+73 car A has passed intersection. ignoring for collision prediction
+73 car B has passed intersection. ignoring for collision prediction
+73 car D is at -12.199999999999932, 0 with speed 0.84, 0
+73 car D time to intersection 86.52380952380945
+73 car A has passed intersection. ignoring for collision prediction
+73 car B has passed intersection. ignoring for collision prediction
+73 car E is at 0, -9 with speed 0, 1
+73 car E time to intersection 81.0
+73 car A has passed intersection. ignoring for collision prediction
+73 car B has passed intersection. ignoring for collision prediction
+73 car F is at -18.07999999999993, 0 with speed 0.84, 0
+73 car F time to intersection 93.52380952380945
+73 car A has passed intersection. ignoring for collision prediction
+73 car B has passed intersection. ignoring for collision prediction
+74 Active cars: ['C', 'D', 'E', 'F']
+74 car C is at 0, -2 with speed 0, 1
+74 car C time to intersection 75.0
+74 car A has passed intersection. ignoring for collision prediction
+74 car B has passed intersection. ignoring for collision prediction
+74 car D is at -11.359999999999932, 0 with speed 0.84, 0
+74 car D time to intersection 86.52380952380945
+74 car A has passed intersection. ignoring for collision prediction
+74 car B has passed intersection. ignoring for collision prediction
+74 car E is at 0, -8 with speed 0, 1
+74 car E time to intersection 81.0
+74 car A has passed intersection. ignoring for collision prediction
+74 car B has passed intersection. ignoring for collision prediction
+74 car F is at -17.23999999999993, 0 with speed 0.84, 0
+74 car F time to intersection 93.52380952380945
+74 car A has passed intersection. ignoring for collision prediction
+74 car B has passed intersection. ignoring for collision prediction
+75 Active cars: ['C', 'D', 'E', 'F']
+75 car C is at 0, -1 with speed 0, 1
+75 car C time to intersection 75.0
+75 car A has passed intersection. ignoring for collision prediction
+75 car B has passed intersection. ignoring for collision prediction
+75 car D is at -10.519999999999932, 0 with speed 0.84, 0
+75 car D time to intersection 86.52380952380945
+75 car A has passed intersection. ignoring for collision prediction
+75 car B has passed intersection. ignoring for collision prediction
+75 car C has passed intersection. ignoring for collision prediction
+75 car E is at 0, -7 with speed 0, 1
+75 car E time to intersection 81.0
+75 car A has passed intersection. ignoring for collision prediction
+75 car B has passed intersection. ignoring for collision prediction
+75 car C has passed intersection. ignoring for collision prediction
+75 car F is at -16.39999999999993, 0 with speed 0.84, 0
+75 car F time to intersection 93.52380952380945
+75 car A has passed intersection. ignoring for collision prediction
+75 car B has passed intersection. ignoring for collision prediction
+75 car C has passed intersection. ignoring for collision prediction
+76 Active cars: ['C', 'D', 'E', 'F']
+76 car C is at 1, 0 with speed 0.84, 0
+76 car C time to intersection 78.19047619047619
+76 car A has passed intersection. ignoring for collision prediction
+76 car B has passed intersection. ignoring for collision prediction
+76 car D has passed intersection. ignoring for collision prediction
+76 car E has passed intersection. ignoring for collision prediction
+76 car F has passed intersection. ignoring for collision prediction
+76 car D is at -9.679999999999932, 0 with speed 0.84, 0
+76 car D time to intersection 86.52380952380945
+76 car A has passed intersection. ignoring for collision prediction
+76 car B has passed intersection. ignoring for collision prediction
+76 car C has passed intersection. ignoring for collision prediction
+76 car E is at 0, -6 with speed 0, 1
+76 car E time to intersection 81.0
+76 car A has passed intersection. ignoring for collision prediction
+76 car B has passed intersection. ignoring for collision prediction
+76 car C has passed intersection. ignoring for collision prediction
+76 car F is at -15.559999999999931, 0 with speed 0.84, 0
+76 car F time to intersection 93.52380952380945
+76 car A has passed intersection. ignoring for collision prediction
+76 car B has passed intersection. ignoring for collision prediction
+76 car C has passed intersection. ignoring for collision prediction
+77 Active cars: ['C', 'D', 'E', 'F']
+77 car C is at 1.8399999999999999, 0 with speed 0.84, 0
+77 car C time to intersection 80.19047619047619
+77 car A has passed intersection. ignoring for collision prediction
+77 car B has passed intersection. ignoring for collision prediction
+77 car D has passed intersection. ignoring for collision prediction
+77 car E has passed intersection. ignoring for collision prediction
+77 car F has passed intersection. ignoring for collision prediction
+77 car D is at -8.839999999999932, 0 with speed 0.84, 0
+77 car D time to intersection 86.52380952380945
+77 car A has passed intersection. ignoring for collision prediction
+77 car B has passed intersection. ignoring for collision prediction
+77 car C has passed intersection. ignoring for collision prediction
+77 car E is at 0, -5 with speed 0, 1
+77 car E time to intersection 81.0
+77 car A has passed intersection. ignoring for collision prediction
+77 car B has passed intersection. ignoring for collision prediction
+77 car C has passed intersection. ignoring for collision prediction
+77 car F is at -14.719999999999931, 0 with speed 0.84, 0
+77 car F time to intersection 93.52380952380945
+77 car A has passed intersection. ignoring for collision prediction
+77 car B has passed intersection. ignoring for collision prediction
+77 car C has passed intersection. ignoring for collision prediction
+78 Active cars: ['C', 'D', 'E', 'F']
+78 car C is at 2.6799999999999997, 0 with speed 0.84, 0
+78 car C time to intersection 82.19047619047619
+78 car A has passed intersection. ignoring for collision prediction
+78 car B has passed intersection. ignoring for collision prediction
+78 car D has passed intersection. ignoring for collision prediction
+78 car E has passed intersection. ignoring for collision prediction
+78 car F has passed intersection. ignoring for collision prediction
+78 car D is at -7.9999999999999325, 0 with speed 0.84, 0
+78 car D time to intersection 86.52380952380945
+78 car A has passed intersection. ignoring for collision prediction
+78 car B has passed intersection. ignoring for collision prediction
+78 car C has passed intersection. ignoring for collision prediction
+78 car E is at 0, -4 with speed 0, 1
+78 car E time to intersection 81.0
+78 car A has passed intersection. ignoring for collision prediction
+78 car B has passed intersection. ignoring for collision prediction
+78 car C has passed intersection. ignoring for collision prediction
+78 car F is at -13.879999999999932, 0 with speed 0.84, 0
+78 car F time to intersection 93.52380952380945
+78 car A has passed intersection. ignoring for collision prediction
+78 car B has passed intersection. ignoring for collision prediction
+78 car C has passed intersection. ignoring for collision prediction
+79 Active cars: ['C', 'D', 'E', 'F']
+79 car C is at 3.5199999999999996, 0 with speed 0.84, 0
+79 car C time to intersection 84.19047619047619
+79 car A has passed intersection. ignoring for collision prediction
+79 car B has passed intersection. ignoring for collision prediction
+79 car D has passed intersection. ignoring for collision prediction
+79 car E has passed intersection. ignoring for collision prediction
+79 car F has passed intersection. ignoring for collision prediction
+79 car D is at -7.159999999999933, 0 with speed 0.84, 0
+79 car D time to intersection 86.52380952380945
+79 car A has passed intersection. ignoring for collision prediction
+79 car B has passed intersection. ignoring for collision prediction
+79 car C has passed intersection. ignoring for collision prediction
+79 car E is at 0, -3 with speed 0, 1
+79 car E time to intersection 81.0
+79 car A has passed intersection. ignoring for collision prediction
+79 car B has passed intersection. ignoring for collision prediction
+79 car C has passed intersection. ignoring for collision prediction
+79 car F is at -13.039999999999932, 0 with speed 0.84, 0
+79 car F time to intersection 93.52380952380945
+79 car A has passed intersection. ignoring for collision prediction
+79 car B has passed intersection. ignoring for collision prediction
+79 car C has passed intersection. ignoring for collision prediction
+80 Active cars: ['C', 'D', 'E', 'F']
+80 car C is at 4.359999999999999, 0 with speed 0.84, 0
+80 car C time to intersection 86.19047619047619
+80 car A has passed intersection. ignoring for collision prediction
+80 car B has passed intersection. ignoring for collision prediction
+80 car D has passed intersection. ignoring for collision prediction
+80 car E has passed intersection. ignoring for collision prediction
+80 car F has passed intersection. ignoring for collision prediction
+80 car D is at -6.319999999999933, 0 with speed 0.84, 0
+80 car D time to intersection 86.52380952380945
+80 car A has passed intersection. ignoring for collision prediction
+80 car B has passed intersection. ignoring for collision prediction
+80 car C has passed intersection. ignoring for collision prediction
+80 car E is at 0, -2 with speed 0, 1
+80 car E time to intersection 81.0
+80 car A has passed intersection. ignoring for collision prediction
+80 car B has passed intersection. ignoring for collision prediction
+80 car C has passed intersection. ignoring for collision prediction
+80 car F is at -12.199999999999932, 0 with speed 0.84, 0
+80 car F time to intersection 93.52380952380945
+80 car A has passed intersection. ignoring for collision prediction
+80 car B has passed intersection. ignoring for collision prediction
+80 car C has passed intersection. ignoring for collision prediction
+81 Active cars: ['C', 'D', 'E', 'F']
+81 car C is at 5.199999999999999, 0 with speed 0.84, 0
+81 car C time to intersection 88.19047619047619
+81 car A has passed intersection. ignoring for collision prediction
+81 car B has passed intersection. ignoring for collision prediction
+81 car D has passed intersection. ignoring for collision prediction
+81 car E has passed intersection. ignoring for collision prediction
+81 car F has passed intersection. ignoring for collision prediction
+81 car D is at -5.479999999999933, 0 with speed 0.84, 0
+81 car D time to intersection 86.52380952380945
+81 car A has passed intersection. ignoring for collision prediction
+81 car B has passed intersection. ignoring for collision prediction
+81 car C has passed intersection. ignoring for collision prediction
+81 car E is at 0, -1 with speed 0, 1
+81 car E time to intersection 81.0
+81 car A has passed intersection. ignoring for collision prediction
+81 car B has passed intersection. ignoring for collision prediction
+81 car C has passed intersection. ignoring for collision prediction
+81 car F is at -11.359999999999932, 0 with speed 0.84, 0
+81 car F time to intersection 93.52380952380945
+81 car A has passed intersection. ignoring for collision prediction
+81 car B has passed intersection. ignoring for collision prediction
+81 car C has passed intersection. ignoring for collision prediction
+81 car E has passed intersection. ignoring for collision prediction
+82 Active cars: ['C', 'D', 'E', 'F']
+82 car C is at 6.039999999999999, 0 with speed 0.84, 0
+82 car C time to intersection 90.19047619047619
+82 car A has passed intersection. ignoring for collision prediction
+82 car B has passed intersection. ignoring for collision prediction
+82 car D has passed intersection. ignoring for collision prediction
+82 car E has passed intersection. ignoring for collision prediction
+82 car F has passed intersection. ignoring for collision prediction
+82 car D is at -4.639999999999933, 0 with speed 0.84, 0
+82 car D time to intersection 86.52380952380945
+82 car A has passed intersection. ignoring for collision prediction
+82 car B has passed intersection. ignoring for collision prediction
+82 car C has passed intersection. ignoring for collision prediction
+82 car E has passed intersection. ignoring for collision prediction
+82 car E is at 1, 0 with speed 0.84, 0
+82 car E time to intersection 84.19047619047619
+82 car A has passed intersection. ignoring for collision prediction
+82 car B has passed intersection. ignoring for collision prediction
+82 car C has passed intersection. ignoring for collision prediction
+82 car D has passed intersection. ignoring for collision prediction
+82 car F has passed intersection. ignoring for collision prediction
+82 car F is at -10.519999999999932, 0 with speed 0.84, 0
+82 car F time to intersection 93.52380952380945
+82 car A has passed intersection. ignoring for collision prediction
+82 car B has passed intersection. ignoring for collision prediction
+82 car C has passed intersection. ignoring for collision prediction
+82 car E has passed intersection. ignoring for collision prediction
+83 Active cars: ['C', 'D', 'E', 'F']
+83 car C is at 6.879999999999999, 0 with speed 0.84, 0
+83 car C time to intersection 92.19047619047619
+83 car A has passed intersection. ignoring for collision prediction
+83 car B has passed intersection. ignoring for collision prediction
+83 car D has passed intersection. ignoring for collision prediction
+83 car E has passed intersection. ignoring for collision prediction
+83 car F has passed intersection. ignoring for collision prediction
+83 car D is at -3.799999999999933, 0 with speed 0.84, 0
+83 car D time to intersection 86.52380952380945
+83 car A has passed intersection. ignoring for collision prediction
+83 car B has passed intersection. ignoring for collision prediction
+83 car C has passed intersection. ignoring for collision prediction
+83 car E has passed intersection. ignoring for collision prediction
+83 car E is at 1.8399999999999999, 0 with speed 0.84, 0
+83 car E time to intersection 86.19047619047619
+83 car A has passed intersection. ignoring for collision prediction
+83 car B has passed intersection. ignoring for collision prediction
+83 car C has passed intersection. ignoring for collision prediction
+83 car D has passed intersection. ignoring for collision prediction
+83 car F has passed intersection. ignoring for collision prediction
+83 car F is at -9.679999999999932, 0 with speed 0.84, 0
+83 car F time to intersection 93.52380952380945
+83 car A has passed intersection. ignoring for collision prediction
+83 car B has passed intersection. ignoring for collision prediction
+83 car C has passed intersection. ignoring for collision prediction
+83 car E has passed intersection. ignoring for collision prediction
+84 Active cars: ['C', 'D', 'E', 'F']
+84 car C is at 7.719999999999999, 0 with speed 0.84, 0
+84 car C time to intersection 94.19047619047619
+84 car A has passed intersection. ignoring for collision prediction
+84 car B has passed intersection. ignoring for collision prediction
+84 car D has passed intersection. ignoring for collision prediction
+84 car E has passed intersection. ignoring for collision prediction
+84 car F has passed intersection. ignoring for collision prediction
+84 car D is at -2.9599999999999334, 0 with speed 0.84, 0
+84 car D time to intersection 86.52380952380945
+84 car A has passed intersection. ignoring for collision prediction
+84 car B has passed intersection. ignoring for collision prediction
+84 car C has passed intersection. ignoring for collision prediction
+84 car E has passed intersection. ignoring for collision prediction
+84 car E is at 2.6799999999999997, 0 with speed 0.84, 0
+84 car E time to intersection 88.19047619047619
+84 car A has passed intersection. ignoring for collision prediction
+84 car B has passed intersection. ignoring for collision prediction
+84 car C has passed intersection. ignoring for collision prediction
+84 car D has passed intersection. ignoring for collision prediction
+84 car F has passed intersection. ignoring for collision prediction
+84 car F is at -8.839999999999932, 0 with speed 0.84, 0
+84 car F time to intersection 93.52380952380945
+84 car A has passed intersection. ignoring for collision prediction
+84 car B has passed intersection. ignoring for collision prediction
+84 car C has passed intersection. ignoring for collision prediction
+84 car E has passed intersection. ignoring for collision prediction
+85 Active cars: ['C', 'D', 'E', 'F']
+85 car C is at 8.559999999999999, 0 with speed 0.84, 0
+85 car C time to intersection 96.19047619047619
+85 car A has passed intersection. ignoring for collision prediction
+85 car B has passed intersection. ignoring for collision prediction
+85 car D has passed intersection. ignoring for collision prediction
+85 car E has passed intersection. ignoring for collision prediction
+85 car F has passed intersection. ignoring for collision prediction
+85 car D is at -2.1199999999999335, 0 with speed 0.84, 0
+85 car D time to intersection 86.52380952380945
+85 car A has passed intersection. ignoring for collision prediction
+85 car B has passed intersection. ignoring for collision prediction
+85 car C has passed intersection. ignoring for collision prediction
+85 car E has passed intersection. ignoring for collision prediction
+85 car E is at 3.5199999999999996, 0 with speed 0.84, 0
+85 car E time to intersection 90.19047619047619
+85 car A has passed intersection. ignoring for collision prediction
+85 car B has passed intersection. ignoring for collision prediction
+85 car C has passed intersection. ignoring for collision prediction
+85 car D has passed intersection. ignoring for collision prediction
+85 car F has passed intersection. ignoring for collision prediction
+85 car F is at -7.9999999999999325, 0 with speed 0.84, 0
+85 car F time to intersection 93.52380952380945
+85 car A has passed intersection. ignoring for collision prediction
+85 car B has passed intersection. ignoring for collision prediction
+85 car C has passed intersection. ignoring for collision prediction
+85 car E has passed intersection. ignoring for collision prediction
+86 Active cars: ['C', 'D', 'E', 'F']
+86 car C is at 9.399999999999999, 0 with speed 0.84, 0
+86 car C time to intersection 98.19047619047619
+86 car A has passed intersection. ignoring for collision prediction
+86 car B has passed intersection. ignoring for collision prediction
+86 car D has passed intersection. ignoring for collision prediction
+86 car E has passed intersection. ignoring for collision prediction
+86 car F has passed intersection. ignoring for collision prediction
+86 C has left the simulation
+86 car E is at 4.359999999999999, 0 with speed 0.84, 0
+86 car E time to intersection 92.19047619047619
+86 car A has passed intersection. ignoring for collision prediction
+86 car B has passed intersection. ignoring for collision prediction
+86 car C has passed intersection. ignoring for collision prediction
+86 car D has passed intersection. ignoring for collision prediction
+86 car F has passed intersection. ignoring for collision prediction
+86 car F is at -7.159999999999933, 0 with speed 0.84, 0
+86 car F time to intersection 93.52380952380945
+86 car A has passed intersection. ignoring for collision prediction
+86 car B has passed intersection. ignoring for collision prediction
+86 car C has passed intersection. ignoring for collision prediction
+86 car E has passed intersection. ignoring for collision prediction
+87 Active cars: ['D', 'E', 'F']
+87 car D is at -1.2799999999999336, 0 with speed 0.84, 0
+87 car D time to intersection 87.52380952380945
+87 car A has passed intersection. ignoring for collision prediction
+87 car B has passed intersection. ignoring for collision prediction
+87 car C has passed intersection. ignoring for collision prediction
+87 car E has passed intersection. ignoring for collision prediction
+87 car E is at 5.199999999999999, 0 with speed 0.84, 0
+87 car E time to intersection 94.19047619047619
+87 car A has passed intersection. ignoring for collision prediction
+87 car B has passed intersection. ignoring for collision prediction
+87 car C has passed intersection. ignoring for collision prediction
+87 car D has passed intersection. ignoring for collision prediction
+87 car F has passed intersection. ignoring for collision prediction
+87 car F is at -6.319999999999933, 0 with speed 0.84, 0
+87 car F time to intersection 93.52380952380945
+87 car A has passed intersection. ignoring for collision prediction
+87 car B has passed intersection. ignoring for collision prediction
+87 car C has passed intersection. ignoring for collision prediction
+87 car D has passed intersection. ignoring for collision prediction
+87 car E has passed intersection. ignoring for collision prediction
+88 Active cars: ['D', 'E', 'F']
+88 car D is at 1, -1 with speed 0, -1
+88 car D time to intersection 91.0
+88 car A has passed intersection. ignoring for collision prediction
+88 car B has passed intersection. ignoring for collision prediction
+88 car C has passed intersection. ignoring for collision prediction
+88 car E has passed intersection. ignoring for collision prediction
+88 car F has passed intersection. ignoring for collision prediction
+88 car E is at 6.039999999999999, 0 with speed 0.84, 0
+88 car E time to intersection 96.19047619047619
+88 car A has passed intersection. ignoring for collision prediction
+88 car B has passed intersection. ignoring for collision prediction
+88 car C has passed intersection. ignoring for collision prediction
+88 car D has passed intersection. ignoring for collision prediction
+88 car F has passed intersection. ignoring for collision prediction
+88 car F is at -5.479999999999933, 0 with speed 0.84, 0
+88 car F time to intersection 93.52380952380945
+88 car A has passed intersection. ignoring for collision prediction
+88 car B has passed intersection. ignoring for collision prediction
+88 car C has passed intersection. ignoring for collision prediction
+88 car D has passed intersection. ignoring for collision prediction
+88 car E has passed intersection. ignoring for collision prediction
+89 Active cars: ['D', 'E', 'F']
+89 car D is at 1, -2 with speed 0, -1
+89 car D time to intersection 93.0
+89 car A has passed intersection. ignoring for collision prediction
+89 car B has passed intersection. ignoring for collision prediction
+89 car C has passed intersection. ignoring for collision prediction
+89 car E has passed intersection. ignoring for collision prediction
+89 car F has passed intersection. ignoring for collision prediction
+89 car E is at 6.879999999999999, 0 with speed 0.84, 0
+89 car E time to intersection 98.19047619047619
+89 car A has passed intersection. ignoring for collision prediction
+89 car B has passed intersection. ignoring for collision prediction
+89 car C has passed intersection. ignoring for collision prediction
+89 car D has passed intersection. ignoring for collision prediction
+89 car F has passed intersection. ignoring for collision prediction
+89 car F is at -4.639999999999933, 0 with speed 0.84, 0
+89 car F time to intersection 93.52380952380945
+89 car A has passed intersection. ignoring for collision prediction
+89 car B has passed intersection. ignoring for collision prediction
+89 car C has passed intersection. ignoring for collision prediction
+89 car D has passed intersection. ignoring for collision prediction
+89 car E has passed intersection. ignoring for collision prediction
+90 Active cars: ['D', 'E', 'F']
+90 car D is at 1, -3 with speed 0, -1
+90 car D time to intersection 95.0
+90 car A has passed intersection. ignoring for collision prediction
+90 car B has passed intersection. ignoring for collision prediction
+90 car C has passed intersection. ignoring for collision prediction
+90 car E has passed intersection. ignoring for collision prediction
+90 car F has passed intersection. ignoring for collision prediction
+90 car E is at 7.719999999999999, 0 with speed 0.84, 0
+90 car E time to intersection 100.19047619047619
+90 car A has passed intersection. ignoring for collision prediction
+90 car B has passed intersection. ignoring for collision prediction
+90 car C has passed intersection. ignoring for collision prediction
+90 car D has passed intersection. ignoring for collision prediction
+90 car F has passed intersection. ignoring for collision prediction
+90 car F is at -3.799999999999933, 0 with speed 0.84, 0
+90 car F time to intersection 93.52380952380945
+90 car A has passed intersection. ignoring for collision prediction
+90 car B has passed intersection. ignoring for collision prediction
+90 car C has passed intersection. ignoring for collision prediction
+90 car D has passed intersection. ignoring for collision prediction
+90 car E has passed intersection. ignoring for collision prediction
+91 Active cars: ['D', 'E', 'F']
+91 car D is at 1, -4 with speed 0, -1
+91 car D time to intersection 97.0
+91 car A has passed intersection. ignoring for collision prediction
+91 car B has passed intersection. ignoring for collision prediction
+91 car C has passed intersection. ignoring for collision prediction
+91 car E has passed intersection. ignoring for collision prediction
+91 car F has passed intersection. ignoring for collision prediction
+91 car E is at 8.559999999999999, 0 with speed 0.84, 0
+91 car E time to intersection 102.19047619047619
+91 car A has passed intersection. ignoring for collision prediction
+91 car B has passed intersection. ignoring for collision prediction
+91 car C has passed intersection. ignoring for collision prediction
+91 car D has passed intersection. ignoring for collision prediction
+91 car F has passed intersection. ignoring for collision prediction
+91 car F is at -2.9599999999999334, 0 with speed 0.84, 0
+91 car F time to intersection 93.52380952380945
+91 car A has passed intersection. ignoring for collision prediction
+91 car B has passed intersection. ignoring for collision prediction
+91 car C has passed intersection. ignoring for collision prediction
+91 car D has passed intersection. ignoring for collision prediction
+91 car E has passed intersection. ignoring for collision prediction
+92 Active cars: ['D', 'E', 'F']
+92 car D is at 1, -5 with speed 0, -1
+92 car D time to intersection 99.0
+92 car A has passed intersection. ignoring for collision prediction
+92 car B has passed intersection. ignoring for collision prediction
+92 car C has passed intersection. ignoring for collision prediction
+92 car E has passed intersection. ignoring for collision prediction
+92 car F has passed intersection. ignoring for collision prediction
+92 car E is at 9.399999999999999, 0 with speed 0.84, 0
+92 car E time to intersection 104.19047619047619
+92 car A has passed intersection. ignoring for collision prediction
+92 car B has passed intersection. ignoring for collision prediction
+92 car C has passed intersection. ignoring for collision prediction
+92 car D has passed intersection. ignoring for collision prediction
+92 car F has passed intersection. ignoring for collision prediction
+92 E has left the simulation
+93 Active cars: ['D', 'F']
+93 car D is at 1, -6 with speed 0, -1
+93 car D time to intersection 101.0
+93 car A has passed intersection. ignoring for collision prediction
+93 car B has passed intersection. ignoring for collision prediction
+93 car C has passed intersection. ignoring for collision prediction
+93 car E has passed intersection. ignoring for collision prediction
+93 car F has passed intersection. ignoring for collision prediction
+93 car F is at -2.1199999999999335, 0 with speed 0.84, 0
+93 car F time to intersection 94.52380952380945
+93 car A has passed intersection. ignoring for collision prediction
+93 car B has passed intersection. ignoring for collision prediction
+93 car C has passed intersection. ignoring for collision prediction
+93 car D has passed intersection. ignoring for collision prediction
+93 car E has passed intersection. ignoring for collision prediction
+94 Active cars: ['D', 'F']
+94 car D is at 1, -7 with speed 0, -1
+94 car D time to intersection 103.0
+94 car A has passed intersection. ignoring for collision prediction
+94 car B has passed intersection. ignoring for collision prediction
+94 car C has passed intersection. ignoring for collision prediction
+94 car E has passed intersection. ignoring for collision prediction
+94 car F has passed intersection. ignoring for collision prediction
+94 car F is at -1.2799999999999336, 0 with speed 0.84, 0
+94 car F time to intersection 94.52380952380945
+94 car A has passed intersection. ignoring for collision prediction
+94 car B has passed intersection. ignoring for collision prediction
+94 car C has passed intersection. ignoring for collision prediction
+94 car D has passed intersection. ignoring for collision prediction
+94 car E has passed intersection. ignoring for collision prediction
+95 Active cars: ['D', 'F']
+95 car D is at 1, -8 with speed 0, -1
+95 car D time to intersection 105.0
+95 car A has passed intersection. ignoring for collision prediction
+95 car B has passed intersection. ignoring for collision prediction
+95 car C has passed intersection. ignoring for collision prediction
+95 car E has passed intersection. ignoring for collision prediction
+95 car F has passed intersection. ignoring for collision prediction
+95 car F is at 1, -1 with speed 0, -1
+95 car F time to intersection 98.0
+95 car A has passed intersection. ignoring for collision prediction
+95 car B has passed intersection. ignoring for collision prediction
+95 car C has passed intersection. ignoring for collision prediction
+95 car D has passed intersection. ignoring for collision prediction
+95 car E has passed intersection. ignoring for collision prediction
+96 Active cars: ['D', 'F']
+96 car D is at 1, -9 with speed 0, -1
+96 car D time to intersection 107.0
+96 car A has passed intersection. ignoring for collision prediction
+96 car B has passed intersection. ignoring for collision prediction
+96 car C has passed intersection. ignoring for collision prediction
+96 car E has passed intersection. ignoring for collision prediction
+96 car F has passed intersection. ignoring for collision prediction
+96 D has left the simulation
+97 Active cars: ['F']
+97 car F is at 1, -2 with speed 0, -1
+97 car F time to intersection 101.0
+97 car A has passed intersection. ignoring for collision prediction
+97 car B has passed intersection. ignoring for collision prediction
+97 car C has passed intersection. ignoring for collision prediction
+97 car D has passed intersection. ignoring for collision prediction
+97 car E has passed intersection. ignoring for collision prediction
+98 Active cars: ['F']
+98 car F is at 1, -3 with speed 0, -1
+98 car F time to intersection 103.0
+98 car A has passed intersection. ignoring for collision prediction
+98 car B has passed intersection. ignoring for collision prediction
+98 car C has passed intersection. ignoring for collision prediction
+98 car D has passed intersection. ignoring for collision prediction
+98 car E has passed intersection. ignoring for collision prediction
+99 Active cars: ['F']
+99 car F is at 1, -4 with speed 0, -1
+99 car F time to intersection 105.0
+99 car A has passed intersection. ignoring for collision prediction
+99 car B has passed intersection. ignoring for collision prediction
+99 car C has passed intersection. ignoring for collision prediction
+99 car D has passed intersection. ignoring for collision prediction
+99 car E has passed intersection. ignoring for collision prediction
+100 Active cars: ['F']
+100 car F is at 1, -5 with speed 0, -1
+100 car F time to intersection 107.0
+100 car A has passed intersection. ignoring for collision prediction
+100 car B has passed intersection. ignoring for collision prediction
+100 car C has passed intersection. ignoring for collision prediction
+100 car D has passed intersection. ignoring for collision prediction
+100 car E has passed intersection. ignoring for collision prediction
+101 Active cars: ['F']
+101 car F is at 1, -6 with speed 0, -1
+101 car F time to intersection 109.0
+101 car A has passed intersection. ignoring for collision prediction
+101 car B has passed intersection. ignoring for collision prediction
+101 car C has passed intersection. ignoring for collision prediction
+101 car D has passed intersection. ignoring for collision prediction
+101 car E has passed intersection. ignoring for collision prediction
+102 Active cars: ['F']
+102 car F is at 1, -7 with speed 0, -1
+102 car F time to intersection 111.0
+102 car A has passed intersection. ignoring for collision prediction
+102 car B has passed intersection. ignoring for collision prediction
+102 car C has passed intersection. ignoring for collision prediction
+102 car D has passed intersection. ignoring for collision prediction
+102 car E has passed intersection. ignoring for collision prediction
+103 Active cars: ['F']
+103 car F is at 1, -8 with speed 0, -1
+103 car F time to intersection 113.0
+103 car A has passed intersection. ignoring for collision prediction
+103 car B has passed intersection. ignoring for collision prediction
+103 car C has passed intersection. ignoring for collision prediction
+103 car D has passed intersection. ignoring for collision prediction
+103 car E has passed intersection. ignoring for collision prediction
+104 Active cars: ['F']
+104 car F is at 1, -9 with speed 0, -1
+104 car F time to intersection 115.0
+104 car A has passed intersection. ignoring for collision prediction
+104 car B has passed intersection. ignoring for collision prediction
+104 car C has passed intersection. ignoring for collision prediction
+104 car D has passed intersection. ignoring for collision prediction
+104 car E has passed intersection. ignoring for collision prediction
+104 F has left the simulation
+104 All cars have left the simulation
+104 Simulation ended with srf 0.16
