@@ -4,7 +4,6 @@ import pygame
 import sys
 import os
 from enum import Enum
-import random
 
 file_name = "car_positions.xlsx"
 
@@ -41,28 +40,7 @@ class Color(Enum):
 
 
 # Define colors
-colors = [
-    (255, 255, 255),  # WHITE
-    (0, 0, 0),        # BLACK
-    (255, 0, 0),      # RED
-    (0, 255, 0),      # GREEN
-    (0, 0, 255),      # BLUE
-    (255, 255, 0),    # YELLOW
-    (0, 255, 255),    # CYAN
-    (255, 0, 255),    # MAGENTA
-    (255, 165, 0),    # ORANGE
-    (128, 0, 128),    # PURPLE
-    (0, 128, 128),    # TEAL
-    (255, 192, 203),  # PINK
-    (0, 255, 0),      # LIME
-    (165, 42, 42),    # BROWN
-    (255, 215, 0),    # GOLD
-    (192, 192, 192),  # SILVER
-    (128, 128, 128),  # GRAY
-    (128, 0, 0),      # MAROON
-    (0, 0, 128),      # NAVY
-    (128, 128, 0)     # OLIVE
-]
+colors = [Color.WHITE, Color.BLACK, Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW, Color.CYAN, Color.MAGENTA, Color.ORANGE, Color.PURPLE, Color.TEAL, Color.PINK, Color.LIME, Color.BROWN, Color.GOLD, Color.SILVER, Color.GRAY, Color.MAROON, Color.NAVY, Color.OLIVE]
 
 class PointsDataProcessor:
     def __init__(self, path):
@@ -94,29 +72,11 @@ class PointsDataProcessor:
                 cars_way.append({"car":col,"way":"WS","points":self.df[col]})
 
         # Given points
-        points1 = [
-            (-50, 0), (-49, 0), (-48, 0), (-47, 0), (-46, 0), (-45, 0), (-44, 0), (-43, 0), (-42, 0), (-41, 0),
-            (-40, 0), (-39, 0), (-38, 0), (-37, 0), (-36, 0), (-35, 0), (-34, 0), (-33, 0), (-32, 0), (-31, 0),
-            (-30, 0), (-29, 0), (-28, 0), (-27, 0), (-26, 0), (-25, 0), (-24, 0), (-23, 0), (-22, 0), (-21, 0),
-            (-20, 0), (-19, 0), (-18, 0), (-17, 0), (-16, 0), (-15, 0), (-14, 0), (-13, 0), (-12, 0), (-11, 0),
-            (-10, 0), (-9, 0), (-8, 0), (-7, 0), (-6, 0), (-5, 0), (-4, 0), (-3, 0), (-2, 0), (-1, 0), (0, 0)
-        ]
+        points1 = [(x, 0) for x in range(-50, 1)]
 
-        points2 = [
-            (0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (7, 0), (8, 0), (9, 0),
-            (10, 0), (11, 0), (12, 0), (13, 0), (14, 0), (15, 0), (16, 0), (17, 0), (18, 0), (19, 0),
-            (20, 0), (21, 0), (22, 0), (23, 0), (24, 0), (25, 0), (26, 0), (27, 0), (28, 0), (29, 0),
-            (30, 0), (31, 0), (32, 0), (33, 0), (34, 0), (35, 0), (36, 0), (37, 0), (38, 0), (39, 0),
-            (40, 0), (41, 0), (42, 0), (43, 0), (44, 0), (45, 0), (46, 0), (47, 0), (48, 0), (49, 0), (50, 0)
-        ]
+        points2 = [(x, 0) for x in range(51)]
 
-        points3 = [
-            (0, -50), (0, -49), (0, -48), (0, -47), (0, -46), (0, -45), (0, -44), (0, -43), (0, -42), (0, -41),
-            (0, -40), (0, -39), (0, -38), (0, -37), (0, -36), (0, -35), (0, -34), (0, -33), (0, -32), (0, -31),
-            (0, -30), (0, -29), (0, -28), (0, -27), (0, -26), (0, -25), (0, -24), (0, -23), (0, -22), (0, -21),
-            (0, -20), (0, -19), (0, -18), (0, -17), (0, -16), (0, -15), (0, -14), (0, -13), (0, -12), (0, -11),
-            (0, -10), (0, -9), (0, -8), (0, -7), (0, -6), (0, -5), (0, -4), (0, -3), (0, -2), (0, -1), (0, 0)
-        ]
+        points3 = [(0, x) for x in range(-50, 1)]
 
         points4 = [(1, -x) for x in range(51)]
 
@@ -189,22 +149,11 @@ while running:
     for car in cars:
         car.move()
         car.draw()
-    # cap_car_1 = "Car A : " + str(car1.get_position())
-    # cap_car_2="Car B : " + str(car2.get_position())
-    
-    # text_1= font.render(cap_car_1, True, (0, 0, 0))
-    # text_2= font.render(cap_car_2, True, (0, 0, 0))
-    
-    # text_rect_1 = text_1.get_rect(topleft=(20, 20))
-    # text_rect_2 = text_2.get_rect(topleft=(20, 40))
-    
-    # screen.blit(text_1, text_rect_1)
-    # screen.blit(text_2, text_rect_2)
 
     # Draw intersection points
     i=1
     for point in intersection_points:
-        pygame.draw.circle(screen, colors[i], point, 10)
+        pygame.draw.circle(screen, colors[i].value, point, 10)
         i += 1
 
     pygame.display.flip()
