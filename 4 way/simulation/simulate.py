@@ -70,6 +70,8 @@ class PointsDataProcessor:
                 cars_way.append({"car":col,"way":"SE","points":self.df[col]})
             elif col.startswith('WS'):
                 cars_way.append({"car":col,"way":"WS","points":self.df[col]})
+            elif col.startswith('NW'):
+                cars_way.append({"car":col,"way":"NW","points":self.df[col]})
 
         # Given points
         points1 = [(x, 0) for x in range(-50, 1)]
@@ -80,23 +82,36 @@ class PointsDataProcessor:
 
         points4 = [(1, -x) for x in range(51)]
 
+        points5 = [(1, x) for x in range(41)]
+
         for car in cars_way:
             result=[]
-            for point in car['points']:
-                if str(point)!='nan':
-                    point=eval(str(point))
-                    if (point[0]>=-50 and point[0]<0) and point[1]==0:
-                        result.extend(self.scale_points([point], points1, [(-50, 0), (0, 0)], [(300, 200), (600, 200)])) #x 
-                    elif point[0]==1 and (point[1]>=-50 and point[1]<0):
-                        result.extend(self.scale_points([point],points4, [(1, -50), (1, 0)], [(605, 500), (605, 200)]))
-                    elif (point[0]>0 and point[0]<=50):
-                        result.extend(self.scale_points([point],points2, [(0, 0), (50, 0)], [(600, 200), (900, 200)])) #y
-                    elif point[0]==0 and (point[1]>=-50 and point[1]<0):
-                        result.extend(self.scale_points([point],points3, [(0, -50), (0, 0)], [(600, 500), (600, 200)]))
+            with open("simulation_logs.log", "w") as f:
+                for point in car['points']:
+                    if str(point)!='nan':
+                        point=eval(str(point))
+                        f.write(str(point) + "\n")
+                        if (point[0]>=-50 and point[0]<0) and point[1]==0:
+                            result.extend(self.scale_points([point], points1, [(-50, 0), (0, 0)], [(300, 200), (600, 200)])) #x 
+                            f.write("case 1" +"\n")
+                        elif point[0]==1 and (point[1]>=-50 and point[1]<0):
+                            result.extend(self.scale_points([point],points4, [(1, -50), (1, 0)], [(605, 500), (605, 200)]))
+                            f.write("case 2" + "\n")
+                        elif point[0] == 1 and (point[1]>=0 and point[1]<=40):
+                            result.extend(self.scale_points([point], points5, [(1, 0), (1, 40)], [(605, 200), (605, -400)]))
+                            f.write("case 3" + "\n")
+                        elif (point[0]>0 and point[0]<=50):
+                            result.extend(self.scale_points([point],points2, [(0, 0), (50, 0)], [(600, 200), (900, 200)])) #y
+                            f.write("case 4" + "\n")
+                        elif point[0]==0 and (point[1]>=-50 and point[1]<0):
+                            result.extend(self.scale_points([point],points3, [(0, -50), (0, 0)], [(600, 500), (600, 200)]))
+                            f.write("case 5" + "\n")
             if car['way']=="SE":
                 car["points"]=[(x,y+10) for x,y in result]
             elif car['way']=="WS":
                 car["points"]=[(x+10,y) for x,y in result]
+            elif car['way']=='NW':
+                car['points']=[(x,y+10) for x,y in result]
             self.scaled_R.append(car)
 
         # print(self.scaled_R)
@@ -126,9 +141,9 @@ class Car:
     def draw(self):
         pygame.draw.rect(screen, self.color, (self.x - 10, self.y - 10, 10, 10))
 
-intersection_points = [ (600, 500), (300, 200), (600, 200), (900, 200)]
+intersection_points = [ (600, 500), (300, 200), (600, 200), (900, 200), (600, 10)]
 
-scaled_R = PointsDataProcessor(os.path.join(os.curdir, 'simulation/data', file_name)).execute()
+scaled_R = PointsDataProcessor(os.path.join(os.curdir, 'data', file_name)).execute()
 
 car_paths = [scaled_R[i]['points'] for i in range(len(scaled_R))]
 

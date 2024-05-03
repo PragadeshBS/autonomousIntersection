@@ -1,3 +1,4 @@
-logs/*
+**/logs/*
 .venv/*
-simulation/data/*
+**/simulation/data/*
+**/*.log
