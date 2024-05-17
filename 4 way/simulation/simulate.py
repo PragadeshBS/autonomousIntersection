@@ -84,6 +84,8 @@ class PointsDataProcessor:
 
         points5 = [(1, x) for x in range(41)]
 
+        points6 = [(x, 1) for x in range(-50, 1)]
+
         for car in cars_way:
             result=[]
             with open("simulation_logs.log", "w") as f:
@@ -106,6 +108,8 @@ class PointsDataProcessor:
                         elif point[0]==0 and (point[1]>=-50 and point[1]<0):
                             result.extend(self.scale_points([point],points3, [(0, -50), (0, 0)], [(600, 500), (600, 200)]))
                             f.write("case 5" + "\n")
+                        elif (point[0]>=-50 and point[0]<0) and point[1]==1:
+                            result.extend(self.scale_points([point], points6, [(-50, 1), (0, 1)], [(300, 200), (600, 200)]))
             if car['way']=="SE":
                 car["points"]=[(x,y+10) for x,y in result]
             elif car['way']=="WS":
@@ -172,7 +176,7 @@ while running:
         i += 1
 
     pygame.display.flip()
-    clock.tick(25)
+    clock.tick(8)
 
 # Quit Pygame
 pygame.quit()

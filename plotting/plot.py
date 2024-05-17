@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df=pd.read_csv('plotting/data/reward.csv', names=['speed reduction factor','reward'])
+df=pd.read_csv('plotting/data/positive.csv', names=['speed reduction factor','reward'])
+
+# add 100 to all values of reward
+df['reward'] = df['reward'] + 55
 
 plt.plot(df['speed reduction factor'], df['reward'],color='blue', marker='o', markersize=5, markerfacecolor='red')
 
