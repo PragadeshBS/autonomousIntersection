@@ -176,7 +176,7 @@ while running:
         i += 1
 
     pygame.display.flip()
-    clock.tick(8)
+    clock.tick(75)
 
 # Quit Pygame
 pygame.quit()
